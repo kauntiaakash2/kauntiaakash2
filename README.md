@@ -20,7 +20,7 @@ You can click the Preview link to take a look at your changes.
 <a href ="https://www.linkedin.com/in/akash-agarwal-874641323/" target = "_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 <p>----OR----</p>
 <address>Mail me at akashkauntia2006@gmail.com</address--->
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">A passionate developer from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kauntiaakash2&label=Profile%20views&color=0e75b6&style=flat" alt="kauntiaakash2" /> </p>
 
