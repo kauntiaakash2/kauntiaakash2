@@ -77,11 +77,11 @@ You can click the Preview link to take a look at your changes.
   ## 💰 You can help me by Donating
   [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/kauntiakash) 
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kauntiaakash2&show_icons=true&locale=en&layout=compact" alt="kauntiaakash2" /></p>
   
 <!--- Proudly created with GPRM ( https://gprm.itsvg.in )>
 <p><a href="https://www.buymeacoffee.com/kauntiakash"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="kauntiakash" /></a></p><br><br>
 
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kauntiaakash2&show_icons=true&locale=en&layout=compact" alt="kauntiaakash2" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kauntiaakash2&show_icons=true&locale=en" alt="kauntiaakash2" /></p--->
 
