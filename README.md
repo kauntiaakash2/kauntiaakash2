@@ -1,4 +1,4 @@
-<!---## Hi there <img src="https://raw.githubusercontent.com/akgarg0472/akgarg0472/main/.github/images/hi.gif" width="30px">, I'm Akash Agarwal
+## Hi there <img src="https://raw.githubusercontent.com/akgarg0472/akgarg0472/main/.github/images/hi.gif" width="30px">, I'm Akash Agarwal
 <!--- 👋 Hi, I’m @kauntiaakash2
 - 👀 I’m interested in ...
 - 🌱 I’m currently learning ...
@@ -85,4 +85,4 @@ You can click the Preview link to take a look at your changes.
 <a href="https://www.hackerearth.com/akashkauntia2006" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="akashkauntia2006" height="30" width="40" /></a>
 <a href="https://auth.geeksforgeeks.org/user/kauntiaakash2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="kauntiaakash2" height="30" width="40" /></a>
 <a href="https://www.topcoder.com/members/kauntiakash2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/topcoder.svg" alt="kauntiakash2" height="30" width="40" /></a>
-</p--->
+</p>
