@@ -87,3 +87,9 @@ You can click the Preview link to take a look at your changes.
 <a href="https://auth.geeksforgeeks.org/user/kauntiaakash2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="kauntiaakash2" height="30" width="40" /></a>
 <a href="https://www.topcoder.com/members/kauntiakash2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/topcoder.svg" alt="kauntiakash2" height="30" width="40" /></a>
 </p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/output/github-snake.svg" />
+</picture>
