@@ -89,8 +89,7 @@ You can click the Preview link to take a look at your changes.
 </p>
 
 ## Badges
-[![An image of @kauntiaakashs2's Holopin badges, which is a link to view their full Holopin profile](https://www.holopin.io/@kauntiaakash2)](https://www.holopin.io/@kauntiaakash2)
-
+[![An image of @kauntiaakash2's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/kauntiaakash2)](https://holopin.io/@kauntiaakash2)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/output/github-snake-dark.svg" />
