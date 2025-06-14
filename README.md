@@ -28,7 +28,7 @@ You can click the Preview link to take a look at your changes.
 
 <h3 align="left">Support:</h3--->
 # 💫 About Me:
-🔭 I’m currently working on my startup idea<br>👯 I’m looking to collaborate on future projects<br>🤝 I’m looking for help with DSA<br>🌱 I’m currently learning C++<br>💬 Ask me about<br>⚡ Fun fact I love photography
+🔭 I’m currently working on my DSA and Development skills<br>🔭 I’m also contributing to SSoC S4 Projects<br>👯 I’m looking to collaborate on future projects<br>🤝 I’m looking for help with DSA<br>🌱 I’m currently learning C++<br>💬 Ask me about<br>⚡ Fun fact I love photography
 
 
 ## 🌐 Socials:
