@@ -7,7 +7,7 @@
 <div align="center"><img src="https://readme-typing-svg.herokuapp.com?color=%23FFD617&size=20&multiline=true&width=515&lines=Welcome+to+Akash+Agarwal+Github+Profile" alt="Welcome!"/></div>
 
 <p align="center">
-<img  src="https://komarev.com/ghpvc/?username=kauntiaakash2&label=Profile%20views&color=brightgreen&style=flat" alt="kauntiaakash2">
+<img  src="https://komarev.com/ghpvc/?username=kauntiaakash2&label=Profile%20views&color=blueviolet&style=flat" alt="kauntiaakash2">
 </p>
 
 <p align="center"> You have finally discovered my Github profile. <br>
@@ -109,3 +109,4 @@ You can click the Preview link to take a look at your changes.
 ---
 
 <h3 align="center">Show some ❤️ by giving ⭐ to some of my Repositories!!</h3>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=1283D1&height=80&section=footer"/>
