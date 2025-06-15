@@ -65,7 +65,7 @@ You can click the Preview link to take a look at your changes.
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kauntiaakash2&label=Profile%20views&color=0e75b6&style=flat" alt="kauntiaakash2" /> </p>
 
-<h3 align="left">Connect with me:</h3>
+<!---h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://codepen.io/kauntiaakash2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="kauntiaakash2" height="30" width="40" /></a>
 <a href="https://dev.to/kauntiaakash2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="kauntiaakash2" height="30" width="40" /></a>
@@ -86,7 +86,7 @@ You can click the Preview link to take a look at your changes.
 <a href="https://www.hackerearth.com/akashkauntia2006" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="akashkauntia2006" height="30" width="40" /></a>
 <a href="https://auth.geeksforgeeks.org/user/kauntiaakash2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="kauntiaakash2" height="30" width="40" /></a>
 <a href="https://www.topcoder.com/members/kauntiakash2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/topcoder.svg" alt="kauntiakash2" height="30" width="40" /></a>
-</p>
+</p--->
 
 <!---## Badges
 [![An image of @kauntiaakash2's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/kauntiaakash2)](https://holopin.io/@kauntiaakash2)--->
