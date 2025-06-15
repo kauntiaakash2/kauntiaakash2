@@ -4,7 +4,7 @@
 <h1>  Hello, I'm Akash Agarwal  <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="30px" height='25px'></h1>
 </div>
 
-<div align="center"><img src="https://readme-typing-svg.herokuapp.com?color=%23FFD617&size=20&multiline=true&width=515&lines=Welcome+to+AkashAgarwal+Github+Profile" alt="Welcome!"/></div>
+<div align="center"><img src="https://readme-typing-svg.herokuapp.com?color=%23FFD617&size=20&multiline=true&width=515&lines=Welcome+to+Akash+Agarwal+Github+Profile" alt="Welcome!"/></div>
 
 <p align="center">
 <img  src="https://komarev.com/ghpvc/?username=kauntiaakash2&label=Profile%20views&color=brightgreen&style=flat" alt="kauntiaakash2">
