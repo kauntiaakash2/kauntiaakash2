@@ -64,7 +64,8 @@ You can click the Preview link to take a look at your changes.
 <!---p align="left"> <img src="https://komarev.com/ghpvc/?username=kauntiaakash2&label=Profile%20views&color=0e75b6&style=flat" alt="kauntiaakash2" /> </p--->
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=kauntiaakash2&theme=aura&no-frame=false&no-bg=true&margin-w=4)
+<!---![](https://github-profile-trophy.vercel.app/?username=kauntiaakash2&theme=aura&no-frame=false&no-bg=true&margin-w=4)--->
+![](https://nirzak-trophies.vercel.app/?username=kauntiaakash2&theme=darkhub&no-bg=true&no-frame=false&margin-w=4)
 ---
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
