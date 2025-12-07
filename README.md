@@ -43,7 +43,7 @@ You can click the Preview link to take a look at your changes.
 
 <h3 align="left">Support:</h3--->
 ## 💫 About Me:
-🔭 I’m currently working on my DSA and Development skills<br>🤝 I’m also contributing to SSoC S4 Projects<br>👯 I’m looking to collaborate on future projects<br>🤝 I’m looking for help with DSA<br>🌱 I’m currently learning C++<br>💬 Ask me about<br>⚡ Fun fact I love photography
+🔭 I’m currently working on my DSA and Development skills<br>🤝 I’m also contributed to SSoC S4 Projects<br>👯 I’m looking to collaborate on future projects<br>🤝 I’m looking for help with DSA& Development<br>🌱 I’m currently learning Web-Development with prior focus on Backend<br>💬 Ask me about<br>⚡ Fun fact I love photography
 
 <!---[![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://behance.net/akashagarwal26)
 [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@akashkauntia2006) 
