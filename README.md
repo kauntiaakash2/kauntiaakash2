@@ -36,7 +36,7 @@
 | Codeforces | **900+** |
 | Focus | **Scalable Full Stack + AI/ML** |
 
-</div>
+## 🧠 SYSTEM // PROFILE
 
 ## 🧩 `load --tech-matrix`
 
