@@ -44,7 +44,7 @@
 ## 🧩 `load --tech-matrix`
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,nodejs,express,fastapi,flask,python,tensorflow,pytorch,mongodb,mysql,docker,aws,git,github,postman,vscode,cpp,c,java" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,nodejs,express,fastapi,flask,python,tensorflow,pytorch,mongodb,mysql,docker,aws,git,github,postman,vscode,vercel,cpp,c,java" />
 </div>
 
 ## 📡 `telemetry --live`
