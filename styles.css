@@ -1,13 +1,12 @@
 :root {
   --bg: #09090f;
-  --bg-2: #111124;
   --card: rgba(23, 24, 41, 0.55);
   --line: rgba(0, 245, 255, 0.3);
   --text: #eef2ff;
   --muted: #a2b0d7;
   --cyan: #00f5ff;
-  --violet: #9f7aea;
   --pink: #ff4ecd;
+  --green: #75fa97;
 }
 
 * {
@@ -18,11 +17,77 @@ html,
 body {
   margin: 0;
   min-height: 100%;
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  font-family: Inter, system-ui, sans-serif;
   color: var(--text);
   background: radial-gradient(circle at 20% 20%, #20233c 0%, var(--bg) 50%),
     linear-gradient(120deg, #0b1024, #0e0918 60%, #070b14);
   overflow-x: hidden;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#boot-screen {
+  position: fixed;
+  inset: 0;
+  background: #020304;
+  z-index: 99;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+#matrix {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+}
+
+.boot-content {
+  position: relative;
+  z-index: 2;
+  width: min(760px, 90vw);
+  border: 1px solid rgba(117, 250, 151, 0.45);
+  background: rgba(0, 0, 0, 0.58);
+  padding: 1.2rem;
+  border-radius: 0.75rem;
+  font-family: "Share Tech Mono", monospace;
+  box-shadow: 0 0 18px rgba(117, 250, 151, 0.28);
+}
+
+.boot-line {
+  color: var(--green);
+  margin: 0;
+  letter-spacing: 0.08em;
+}
+
+.boot-content h1 {
+  margin: 0.6rem 0;
+  color: #d7ffe3;
+  font-size: clamp(1.3rem, 4vw, 2.1rem);
+}
+
+#boot-status {
+  margin: 0.2rem 0 0.8rem;
+  color: #9cf7b3;
+}
+
+.progress-track {
+  height: 10px;
+  border: 1px solid rgba(117, 250, 151, 0.7);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+#progress-bar {
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(90deg, #2bd66f, #9affbe);
+  transition: width 220ms linear;
 }
 
 #starfield {
@@ -49,7 +114,6 @@ body {
 .hero {
   text-align: center;
   padding: 7rem 0 3rem;
-  animation: fadeIn 1.4s ease both;
 }
 
 .kicker {
@@ -209,6 +273,10 @@ h1 {
   color: var(--muted);
 }
 
+.flicker-reveal {
+  animation: flickerIn 1300ms linear both;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(18px);
@@ -220,14 +288,31 @@ h1 {
   transform: translateY(0);
 }
 
-@keyframes fadeIn {
-  from {
+@keyframes flickerIn {
+  0%,
+  10%,
+  14%,
+  30% {
     opacity: 0;
-    transform: translateY(12px);
+    filter: brightness(2.1);
   }
-  to {
+  11%,
+  15%,
+  31%,
+  100% {
     opacity: 1;
-    transform: translateY(0);
+    filter: brightness(1);
+  }
+}
+
+.fade-out {
+  animation: bootOut 900ms ease forwards;
+}
+
+@keyframes bootOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
   }
 }
 
