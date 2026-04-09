@@ -1,0 +1,243 @@
+:root {
+  --bg: #09090f;
+  --bg-2: #111124;
+  --card: rgba(23, 24, 41, 0.55);
+  --line: rgba(0, 245, 255, 0.3);
+  --text: #eef2ff;
+  --muted: #a2b0d7;
+  --cyan: #00f5ff;
+  --violet: #9f7aea;
+  --pink: #ff4ecd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  color: var(--text);
+  background: radial-gradient(circle at 20% 20%, #20233c 0%, var(--bg) 50%),
+    linear-gradient(120deg, #0b1024, #0e0918 60%, #070b14);
+  overflow-x: hidden;
+}
+
+#starfield {
+  position: fixed;
+  inset: 0;
+  z-index: -3;
+}
+
+.noise {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 0);
+  background-size: 3px 3px;
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+.wrap {
+  width: min(1100px, 92vw);
+  margin: 0 auto;
+}
+
+.hero {
+  text-align: center;
+  padding: 7rem 0 3rem;
+  animation: fadeIn 1.4s ease both;
+}
+
+.kicker {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  font-family: Orbitron, sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 0.73rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(0, 245, 255, 0.08);
+}
+
+h1,
+h2 {
+  font-family: Orbitron, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+h1 {
+  margin: 1.1rem 0 0.35rem;
+  font-size: clamp(2rem, 7vw, 4.3rem);
+}
+
+.gradient {
+  background: linear-gradient(90deg, var(--cyan), #70e5ff, var(--pink));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.subtitle {
+  color: var(--muted);
+  font-size: clamp(1rem, 2.3vw, 1.2rem);
+  margin: 0.75rem auto 1.4rem;
+}
+
+.cta-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.btn {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.7rem 1.05rem;
+  border-radius: 0.8rem;
+  transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn-primary {
+  color: #06131a;
+  background: linear-gradient(90deg, var(--cyan), #8fdaff);
+  box-shadow: 0 0 16px rgba(0, 245, 255, 0.45);
+}
+
+.btn-ghost {
+  color: var(--text);
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.55rem;
+}
+
+.badges span {
+  border: 1px solid rgba(159, 122, 234, 0.42);
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  color: #d4d9f7;
+  background: rgba(159, 122, 234, 0.1);
+  font-size: 0.85rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: linear-gradient(180deg, rgba(19, 20, 37, 0.75), var(--card));
+  border-radius: 1rem;
+  padding: 1.1rem;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(7px);
+}
+
+.card h2 {
+  margin: 0 0 0.8rem;
+  color: #d6f8ff;
+}
+
+.wide {
+  grid-column: 1 / -1;
+}
+
+.chip-grid {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.chip-grid span {
+  border: 1px solid var(--line);
+  background: rgba(0, 245, 255, 0.09);
+  border-radius: 0.65rem;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.88rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.stats-grid img {
+  width: 100%;
+  border-radius: 0.7rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.links a {
+  color: #a6fff6;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  padding-bottom: 2.2rem;
+  color: var(--muted);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 550ms ease, transform 550ms ease;
+}
+
+.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 820px) {
+  .grid,
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding-top: 5rem;
+  }
+}
