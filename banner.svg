@@ -1,0 +1,54 @@
+<svg width="1000" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#000000"/>
+
+  <!-- Dotted pattern -->
+  <defs>
+    <pattern id="dots" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#00ff88" opacity="0.15"/>
+    </pattern>
+
+    <!-- Typing mask -->
+    <mask id="typeMask">
+      <rect x="0" y="0" width="0" height="220" fill="white">
+        <animate attributeName="width"
+                 from="0" to="1000"
+                 dur="2s"
+                 fill="freeze" />
+      </rect>
+    </mask>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#dots)" />
+
+  <!-- Terminal prompt -->
+  <text x="20" y="40" fill="#00ff88" font-family="monospace" font-size="18">
+    akash@portfolio:~$
+  </text>
+
+  <!-- Typing text -->
+  <g mask="url(#typeMask)">
+    <text x="50%" y="55%" text-anchor="middle"
+          fill="#39FF14"
+          font-family="monospace"
+          font-size="48">
+      AKASH AGARWAL
+    </text>
+  </g>
+
+  <!-- Blinking cursor (starts after typing) -->
+  <text x="720" y="120"
+        fill="#39FF14"
+        font-family="monospace"
+        font-size="48"
+        opacity="0">
+    _
+    <animate attributeName="opacity"
+             values="0;1;0"
+             dur="1s"
+             begin="2s"
+             repeatCount="indefinite" />
+  </text>
+
+</svg>
