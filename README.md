@@ -9,7 +9,7 @@
 <a href="https://github.com/kauntiaakash2?tab=repositories">
   <img src="https://img.shields.io/badge/OPEN_REPOSITORIES-39FF14?style=for-the-badge&logo=github&logoColor=black"/>
 </a>
-  <a href="[https://github.com/kauntiaakash2?tab=stars](https://code-flow-viz.vercel.app/)"><img src="https://img.shields.io/badge/STAR_PROJECT-9f7aea?style=for-the-badge&logo=starship&logoColor=white"/></a>
+  <a href="https://code-flow-viz.vercel.app/"><img src="https://img.shields.io/badge/STAR_PROJECT-9f7aea?style=for-the-badge&logo=starship&logoColor=white"/></a>
   <a href="mailto:akashkauntia2006@gmail.com"><img src="https://img.shields.io/badge/CONTACT_ME-ff4ecd?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
 
