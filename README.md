@@ -1,123 +1,102 @@
 <div align="center">
 
-  <!-- Banner -->
-  <img src="https://github.com/user-attachments/assets/1b58f017-b2dc-46e1-9d39-c328a01becc4" width="900"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&text=AKASH%20AGARWAL&fontSize=56&fontAlignY=38&desc=FULL%20STACK%20x%20AI%20BUILDER&descAlignY=62&animation=twinkling&color=0:0f0c29,33:302b63,66:24243e,100:0ea5e9" />
 
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=24&duration=2200&pause=800&color=00F5FF&center=true&vCenter=true&width=920&lines=>>>+Neural+systems+online...;>>>+Building+scalable+full-stack+products;>>>+Training+models+for+real+world+impact;>>>+Welcome+to+my+GitHub+command+center+%F0%9F%9A%80" />
 
-  <!-- Heading -->
-  <h1 style="margin: 10px 0;">Hello, I'm Akash Agarwal <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="30px" height='25px'></h1>
-
-  <!-- Divider -->
-  <hr width="500" style="margin: 10px auto;">
-
-  <!-- Typing Animation -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&color=00F7FF&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;AI%2FML+Enthusiast;Competitive+Programmer;Building+Scalable+Systems" />
+<p>
+  <a href="https://github.com/kauntiaakash2?tab=repositories"><img src="https://img.shields.io/badge/Explore-Repositories-00F5FF?style=for-the-badge&logo=github&logoColor=black" /></a>
+  <a href="https://github.com/kauntiaakash2?tab=stars"><img src="https://img.shields.io/badge/Starred-Projects-9F7AEA?style=for-the-badge&logo=starship&logoColor=white" /></a>
+  <a href="https://github.com/kauntiaakash2"><img src="https://komarev.com/ghpvc/?username=kauntiaakash2&style=for-the-badge&color=0ea5e9" /></a>
+</p>
 
 </div>
 
-<p align="center">
-  <strong>
-    You’ve just discovered my GitHub profile.<br>
-    Feel free to explore, fork repositories, open issues, or contribute via pull requests.
-  </strong>
-</p>
+---
 
-<h3 align="center">A passionate developer from India</h3>
+## 🧠 SYSTEM // PROFILE
 
-## About Me
-- 🎓 B.Tech AI & ML @ KIIT (CGPA: 8.7)  
-- 💻 Building Full Stack + AI/ML applications  
-- 🧠 200+ DSA problems solved  
-- 🏆 CodeChef 2★ | Codeforces 900+  
-- 🚀 Focused on scalable and performant systems
-- ⚡ Fun fact I love photography
-  
+```yaml
+name: Akash Agarwal
+location: India
+education: B.Tech AI & ML @ KIIT (CGPA 8.7)
+roles:
+  - Full Stack Developer
+  - AI/ML Engineer
+  - Competitive Programmer
+mission: "Build futuristic products that are intelligent, scalable, and fast."
+```
 
-<img align="right" alt="PNG" src="https://github.com/Vanshikapandey30/Vanshikapandey30/blob/main/assets/img/cat.png" width="200" height="200" />
+<div align="center">
 
-## Tech Stack:
-![React](https://img.shields.io/badge/react-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=next.js)
-![TypeScript](https://img.shields.io/badge/typescript-007ACC?style=for-the-badge&logo=typescript)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![HTML](https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5)
-![CSS](https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3)
-![JavaScript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Tailwind](https://img.shields.io/badge/tailwindcss-38B2AC?style=for-the-badge&logo=tailwind-css)
-![Node.js](https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=nodedotjs)
-![Express](https://img.shields.io/badge/express.js-404D59?style=for-the-badge&logo=express)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Flask](https://img.shields.io/badge/flask-000000?style=for-the-badge&logo=flask)
-![PyTorch](https://img.shields.io/badge/pytorch-EE4C2C?style=for-the-badge&logo=pytorch)
-![TensorFlow](https://img.shields.io/badge/tensorflow-FF6F00?style=for-the-badge&logo=tensorflow)
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/huggingface-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![MongoDB](https://img.shields.io/badge/mongodb-4EA94B?style=for-the-badge&logo=mongodb)
-![MySQL](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql)
-![Docker](https://img.shields.io/badge/docker-0db7ed?style=for-the-badge&logo=docker)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws)
-![Vercel](https://img.shields.io/badge/vercel-000000?style=for-the-badge&logo=vercel)
-![Git](https://img.shields.io/badge/git-F05033?style=for-the-badge&logo=git)
-![GitHub](https://img.shields.io/badge/github-121011?style=for-the-badge&logo=github)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![VS Code](https://img.shields.io/badge/vscode-007ACC?style=for-the-badge&logo=visual-studio-code)
-![C++](https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=c%2B%2B)
-![C](https://img.shields.io/badge/c-00599C?style=for-the-badge&logo=c)
-![Java](https://img.shields.io/badge/java-ED8B00?style=for-the-badge&logo=openjdk)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python)
-![SQL](https://img.shields.io/badge/sql-4479A1?style=for-the-badge&logo=mysql)
+| 🚀 Metrics | Value |
+|---|---|
+| DSA Solved | 200+ |
+| CodeChef | 2★ |
+| Codeforces | 900+ |
+| Focus | Full Stack + AI/ML |
 
-## Milestone:
-<p align="center">
+</div>
 
-  <!-- Row 1 -->
-  <img height="170" src="https://awesome-github-stats.azurewebsites.net/user-stats/kauntiaakash2?theme=tokyonight" />
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=kauntiaakash2&theme=tokyonight" />
+## ⚙️ TECH // MATRIX
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,nodejs,express,fastapi,flask,python,tensorflow,pytorch,mongodb,mysql,docker,aws,git,github,postman,vscode,cpp,java,c" />
+</div>
 
+## 📡 LIVE // TELEMETRY
+<div align="center">
+  <img height="165" src="https://awesome-github-stats.azurewebsites.net/user-stats/kauntiaakash2?theme=tokyonight" />
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=kauntiaakash2&theme=tokyonight" />
   <br/>
-
-  <!-- Row 2 -->
   <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kauntiaakash2&theme=tokyonight" />
-
   <br/>
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kauntiaakash2&theme=tokyonight" />
+</div>
 
-  <!-- Row 3 -->
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kauntiaakash2&theme=tokyonight" />
+## 🏆 ACHIEVEMENTS // VAULT
+<div align="center">
+  <img src="https://nirzak-trophies.vercel.app/?username=kauntiaakash2&theme=darkhub&no-bg=true&no-frame=false&margin-w=8" />
+</div>
 
-</p>
+## 🛰️ INTERACTIVE // PANELS
 
-<!---p align="left"> <img src="https://komarev.com/ghpvc/?username=kauntiaakash2&label=Profile%20views&color=0e75b6&style=flat" alt="kauntiaakash2" /> </p--->
+<details>
+  <summary><b>🧪 Current Focus</b></summary>
+  <br/>
+  Building production-grade full-stack projects with AI capabilities, performance optimization, and clean developer experience.
+</details>
 
-## GitHub Trophies
-<!---![](https://github-profile-trophy.vercel.app/?username=kauntiaakash2&theme=aura&no-frame=false&no-bg=true&margin-w=4)--->
+<details>
+  <summary><b>📸 Fun Side Quest</b></summary>
+  <br/>
+  I love photography and visually storytelling products.
+</details>
 
-![](https://nirzak-trophies.vercel.app/?username=kauntiaakash2&theme=darkhub&no-bg=true&no-frame=false&margin-w=4)
+<details>
+  <summary><b>🤝 Collaboration</b></summary>
+  <br/>
+  Open to collaborations on full-stack apps, AI/ML products, and hackathon-ready prototypes.
+</details>
 
-## Socials:
-
-<p>
-  <a href="https://instagram.com/codewitha.a">
-    <img src="https://skillicons.dev/icons?i=instagram" height="40" />
-  </a>
+## 🌐 CONNECT // CHANNELS
+<div align="center">
+  <a href="https://instagram.com/codewitha.a"><img src="https://skillicons.dev/icons?i=instagram" height="42" /></a>
   &nbsp;&nbsp;
-  <a href="https://linkedin.com/in/kauntiakash2">
-    <img src="https://skillicons.dev/icons?i=linkedin" height="40" />
-  </a>
+  <a href="https://linkedin.com/in/kauntiakash2"><img src="https://skillicons.dev/icons?i=linkedin" height="42" /></a>
   &nbsp;&nbsp;
-  <a href="https://youtube.com/@kauntiakash2">
-    <img src="https://img.icons8.com/color/48/youtube-play.png" height="40"/>
-  </a>
+  <a href="https://youtube.com/@kauntiakash2"><img src="https://img.icons8.com/color/48/youtube-play.png" height="42" /></a>
   &nbsp;&nbsp;
-  <a href="mailto:akashkauntia2006@gmail.com">
-    <img src="https://skillicons.dev/icons?i=gmail" height="40" />
-  </a>
-</p>
+  <a href="mailto:akashkauntia2006@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" height="42" /></a>
+</div>
 
-
-## Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+## 💬 SIGNAL // QUOTE
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
+</div>
 
 ---
+
+<div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/output/github-snake-dark.svg" />
@@ -125,7 +104,8 @@
   <img alt="github-snake" src="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/output/github-snake.svg" />
 </picture>
 
+<h3>✨ If you like futuristic builds, explore my repositories and drop a star!</h3>
 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:0ea5e9,45:302b63,100:0f0c29" />
 
-<h3 align="center">Show some ❤️ by giving ⭐ to some of my Repositories!!</h3>
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=1283D1&height=80&section=footer"/>
+</div>
