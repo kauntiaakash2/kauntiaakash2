@@ -1,6 +1,7 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=260&text=AKASH%20AGARWAL&fontSize=58&fontColor=00F5FF&stroke=00F5FF&animation=twinkling" />
+<!---img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&text=AKASH%20AGARWAL&fontSize=56&fontAlignY=50&fontColor=00F5FF&animation=twinkling&color=0:000000,40:001a1a,70:002f2f,100:000000" /--->
+<img src="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/main/assets/banner.svg" width="100%" />
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=24&duration=2400&pause=800&color=00F5FF&center=true&vCenter=true&width=980&lines=%24+boot+akash.profile;Loading+Neural+Stack...;Full+Stack+Developer+%7C+AI%2FML+Builder;Competitive+Programmer+%7C+System+Thinker;Welcome+to+my+GitHub+Terminal+%F0%9F%9A%80" />
 
