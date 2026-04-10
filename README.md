@@ -1,131 +1,117 @@
 <div align="center">
 
-  <!-- Banner -->
-  <img src="https://github.com/user-attachments/assets/1b58f017-b2dc-46e1-9d39-c328a01becc4" width="900"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=260&text=AKASH%20AGARWAL&fontSize=58&fontColor=00F5FF&stroke=00F5FF&animation=twinkling" />
 
+<img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=24&duration=2400&pause=800&color=00F5FF&center=true&vCenter=true&width=980&lines=%24+boot+akash.profile;Loading+Neural+Stack...;Full+Stack+Developer+%7C+AI%2FML+Builder;Competitive+Programmer+%7C+System+Thinker;Welcome+to+my+GitHub+Terminal+%F0%9F%9A%80" />
 
-  <!-- Heading -->
-  <h1 style="margin: 10px 0;">Hello, I'm Akash Agarwal <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="30px" height='25px'></h1>
-
-  <!-- Divider -->
-  <hr width="500" style="margin: 10px auto;">
-
-  <!-- Typing Animation -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&color=00F7FF&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;AI%2FML+Enthusiast;Competitive+Programmer;Building+Scalable+Systems" />
+<p>
+  <a href="https://github.com/kauntiaakash2?tab=repositories"><img src="https://img.shields.io/badge/OPEN_REPOSITORIES-00f5ff?style=for-the-badge&logo=github&logoColor=black"/></a>
+  <a href="https://github.com/kauntiaakash2?tab=stars"><img src="https://img.shields.io/badge/STARRED_PROJECTS-9f7aea?style=for-the-badge&logo=starship&logoColor=white"/></a>
+  <a href="mailto:akashkauntia2006@gmail.com"><img src="https://img.shields.io/badge/CONTACT_ME-ff4ecd?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+</p>
 
 </div>
 
-<p align="center">
-  <strong>
-    You’ve just discovered my GitHub profile.<br>
-    Feel free to explore, fork repositories, open issues, or contribute via pull requests.
-  </strong>
-</p>
+---
 
-<h3 align="center">A passionate developer from India</h3>
+## 🖥️ `whoami`
 
-## About Me
-- 🎓 B.Tech AI & ML @ KIIT (CGPA: 8.7)  
-- 💻 Building Full Stack + AI/ML applications  
-- 🧠 200+ DSA problems solved  
-- 🏆 CodeChef 2★ | Codeforces 900+  
-- 🚀 Focused on scalable and performant systems
-- ⚡ Fun fact I love photography
-  
+```bash
+> name        : Akash Agarwal
+> location    : India
+> education   : B.Tech AI & ML @ KIIT (CGPA: 8.7)
+> role        : Full Stack Developer + AI/ML Engineer
+> mission     : Build scalable, intelligent, beautiful products
+> fun_fact    : I love photography 📸
+```
 
-<img align="right" alt="PNG" src="https://github.com/Vanshikapandey30/Vanshikapandey30/blob/main/assets/img/cat.png" width="200" height="200" />
+## ⚡ `system --stats`
 
-## Tech Stack:
-![React](https://img.shields.io/badge/react-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=next.js)
-![TypeScript](https://img.shields.io/badge/typescript-007ACC?style=for-the-badge&logo=typescript)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![HTML](https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5)
-![CSS](https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3)
-![JavaScript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Tailwind](https://img.shields.io/badge/tailwindcss-38B2AC?style=for-the-badge&logo=tailwind-css)
-![Node.js](https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=nodedotjs)
-![Express](https://img.shields.io/badge/express.js-404D59?style=for-the-badge&logo=express)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Flask](https://img.shields.io/badge/flask-000000?style=for-the-badge&logo=flask)
-![PyTorch](https://img.shields.io/badge/pytorch-EE4C2C?style=for-the-badge&logo=pytorch)
-![TensorFlow](https://img.shields.io/badge/tensorflow-FF6F00?style=for-the-badge&logo=tensorflow)
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/huggingface-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![MongoDB](https://img.shields.io/badge/mongodb-4EA94B?style=for-the-badge&logo=mongodb)
-![MySQL](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql)
-![Docker](https://img.shields.io/badge/docker-0db7ed?style=for-the-badge&logo=docker)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws)
-![Vercel](https://img.shields.io/badge/vercel-000000?style=for-the-badge&logo=vercel)
-![Git](https://img.shields.io/badge/git-F05033?style=for-the-badge&logo=git)
-![GitHub](https://img.shields.io/badge/github-121011?style=for-the-badge&logo=github)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![VS Code](https://img.shields.io/badge/vscode-007ACC?style=for-the-badge&logo=visual-studio-code)
-![C++](https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=c%2B%2B)
-![C](https://img.shields.io/badge/c-00599C?style=for-the-badge&logo=c)
-![Java](https://img.shields.io/badge/java-ED8B00?style=for-the-badge&logo=openjdk)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python)
-![SQL](https://img.shields.io/badge/sql-4479A1?style=for-the-badge&logo=mysql)
+<div align="center">
 
-## Milestone:
-<p align="center">
+| Metric | Value |
+| --- | --- |
+| DSA Solved | **200+** |
+| CodeChef | **2★** |
+| Codeforces | **900+** |
+| Focus | **Scalable Full Stack + AI/ML** |
 
-  <!-- Row 1 -->
-  <img height="170" src="https://awesome-github-stats.azurewebsites.net/user-stats/kauntiaakash2?theme=tokyonight" />
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=kauntiaakash2&theme=tokyonight" />
+</div>
 
+## 🧩 `load --tech-matrix`
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,nodejs,express,fastapi,flask,python,tensorflow,pytorch,mongodb,mysql,docker,aws,git,github,postman,vscode,cpp,c,java" />
+</div>
+
+## 📡 `telemetry --live`
+
+<div align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=kauntiaakash2&show_icons=true&theme=tokyonight&rank_icon=github" />
+  <img height="170" src="https://streak-stats.demolab.com?user=kauntiaakash2&theme=tokyonight&hide_border=false" />
   <br/>
-
-  <!-- Row 2 -->
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kauntiaakash2&theme=tokyonight" />
-
+  <img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kauntiaakash2&layout=compact&theme=tokyonight" />
+  <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kauntiaakash2&theme=tokyonight&utcOffset=5.5" />
   <br/>
+  <img height="260" src="https://github-readme-activity-graph.vercel.app/graph?username=kauntiaakash2&theme=tokyo-night&area=true&hide_border=true" />
+</div>
 
-  <!-- Row 3 -->
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kauntiaakash2&theme=tokyonight" />
+## 🏆 `vault --achievements`
 
-</p>
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=kauntiaakash2&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&margin-h=10" />
+</div>
 
-<!---p align="left"> <img src="https://komarev.com/ghpvc/?username=kauntiaakash2&label=Profile%20views&color=0e75b6&style=flat" alt="kauntiaakash2" /> </p--->
+## 🛰️ `panel --interactive`
 
-## GitHub Trophies
-<!---![](https://github-profile-trophy.vercel.app/?username=kauntiaakash2&theme=aura&no-frame=false&no-bg=true&margin-w=4)--->
+<details>
+  <summary><b>🧠 Current Build Mode</b></summary>
+  <br/>
+  Building full-stack products with AI integrations, fast APIs, and production-friendly architecture.
+</details>
 
-![](https://nirzak-trophies.vercel.app/?username=kauntiaakash2&theme=darkhub&no-bg=true&no-frame=false&margin-w=4)
+<details>
+  <summary><b>🤝 Open to Collaborate</b></summary>
+  <br/>
+  Open to internships, hackathons, and collaborative projects in AI/ML + full-stack development.
+</details>
 
-## Socials:
+<details>
+  <summary><b>📸 Side Quest</b></summary>
+  <br/>
+  I enjoy photography and creative visual design.
+</details>
 
-<p>
-  <a href="https://instagram.com/codewitha.a">
-    <img src="https://skillicons.dev/icons?i=instagram" height="40" />
-  </a>
+## 🌐 `connect --channels`
+
+<div align="center">
+  <a href="https://instagram.com/codewitha.a"><img src="https://skillicons.dev/icons?i=instagram" height="42" /></a>
   &nbsp;&nbsp;
-  <a href="https://linkedin.com/in/kauntiakash2">
-    <img src="https://skillicons.dev/icons?i=linkedin" height="40" />
-  </a>
+  <a href="https://linkedin.com/in/kauntiakash2"><img src="https://skillicons.dev/icons?i=linkedin" height="42" /></a>
   &nbsp;&nbsp;
-  <a href="https://youtube.com/@kauntiakash2">
-    <img src="https://img.icons8.com/color/48/youtube-play.png" height="40"/>
-  </a>
+  <a href="https://youtube.com/@kauntiakash2"><img src="https://img.icons8.com/color/48/youtube-play.png" height="42" /></a>
   &nbsp;&nbsp;
-  <a href="mailto:akashkauntia2006@gmail.com">
-    <img src="https://skillicons.dev/icons?i=gmail" height="40" />
-  </a>
-</p>
+  <a href="mailto:akashkauntia2006@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" height="42" /></a>
+</div>
 
+## 💬 `quote --random`
 
-## Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
+</div>
 
 ---
+
+<div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/output/github-snake.svg" />
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/output/github-snake.svg" />
 </picture>
 
+<h3>✨ Thanks for visiting my terminal. Explore, fork, build, and star!</h3>
 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:00f5ff,50:302b63,100:0f0c29" />
 
-<h3 align="center">Show some ❤️ by giving ⭐ to some of my Repositories!!</h3>
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=1283D1&height=80&section=footer"/>
+</div>
