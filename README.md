@@ -112,7 +112,7 @@
   <img alt="github contribution snake" src="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/output/github-snake.svg" />
 </picture>
 
-<h3>✨ Thanks for visiting my terminal. Explore, fork, build, and star!</h3>
+<h3> Thanks for visiting my terminal. Explore, fork, build, and star!</h3>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:00f5ff,50:302b63,100:0f0c29" />
 
