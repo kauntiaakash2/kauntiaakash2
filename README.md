@@ -22,7 +22,7 @@
 ```bash
 > name        : Akash Agarwal
 > location    : India
-> education   : B.Tech AI & ML @ KIIT (CGPA: 8.7)
+> education   : B.Tech AI & ML @ KIIT (CGPA: 8.71)
 > role        : Full Stack Developer + AI/ML Engineer
 > mission     : Build scalable, intelligent, beautiful products
 > fun_fact    : I love photography 📸
