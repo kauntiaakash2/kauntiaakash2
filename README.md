@@ -22,7 +22,7 @@
 ```bash
 > name        : Akash Agarwal
 > location    : India
-> education   : B.Tech AI & ML @ KIIT (CGPA: 8.71)
+> education   : B.Tech AI & ML @ KIIT (CGPA: 8.74)
 > role        : Full Stack Developer + AI/ML Engineer
 > mission     : Build scalable, intelligent, beautiful products
 > fun_fact    : I love photography 📸
@@ -35,8 +35,8 @@
 | Metric | Value |
 | --- | --- |
 | DSA Solved | **200+** |
-| CodeChef | **2★** |
-| Codeforces | **900+** |
+| CodeChef | **3★** |
+| Codeforces | **1000+** |
 | Focus | **Scalable Full Stack + AI/ML** |
 
 ## 🧠 SYSTEM // PROFILE
