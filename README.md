@@ -37,6 +37,7 @@
 | DSA Solved | **200+** |
 | CodeChef | **3★** |
 | Codeforces | **1000+** |
+| IEEE ITTP Summer School | | **Winner** |
 | Focus | **Scalable Full Stack + AI/ML** |
 
 ## 🧠 SYSTEM // PROFILE
