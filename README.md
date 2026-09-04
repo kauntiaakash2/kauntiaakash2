@@ -263,7 +263,11 @@
 ## `ACHIVEMENTS`
 
 <div align="center">
-  <img src="https://nirzak-trophies.vercel.app/?username=kauntiaakash2&theme=darkhub&no-bg=true&no-frame=false&margin-w=8" />
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://nirzak-trophies.vercel.app/?username=kauntiaakash2&theme=gitdimmed&no-bg=true&no-frame=false&margin-w=8">
+<source media="(prefers-color-scheme: light)" srcset="https://nirzak-trophies.vercel.app/?username=kauntiaakash2&theme=flat&no-bg=true&no-frame=false&margin-w=8">
+<img src="https://nirzak-trophies.vercel.app/?username=kauntiaakash2&theme=flat&no-bg=true&no-frame=false&margin-w=8" alt="GitHub Trophies" width="100%">
+</picture>
 </div>
 
 
