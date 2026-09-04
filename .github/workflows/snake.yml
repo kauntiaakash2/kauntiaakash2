@@ -34,8 +34,12 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # IMPORTANT:
+      # Snake Docker action may leave dist owned by root
+      - name: Fix dist permissions
+        run: |
+          sudo chown -R "$(id -u):$(id -g)" dist
+          chmod -R u+rwX dist
 
       # -----------------------------
       # Generate Pac-Man
@@ -45,6 +49,14 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           games: "pacman"
+
+      # -----------------------------
+      # Show generated files
+      # -----------------------------
+      - name: Verify generated files
+        run: |
+          echo "Generated files:"
+          ls -lah dist/
 
       # -----------------------------
       # Publish everything
