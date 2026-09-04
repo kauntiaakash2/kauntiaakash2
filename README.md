@@ -26,17 +26,163 @@
 
 </div>
 
----
 
-## SYSTEM STATUS
+## `PROJECT NODES`
 
-## `LOAD --TECH-MATRIX`
+<table width="100%">
+
+<tr>
+
+<td width="25%" align="center" valign="middle">
+  <img src="https://placehold.co/245x1/transparent/transparent" width="245" height="1" alt="">
+  <br>
+  <code>FV-001</code>
+  <br><br>
+  <b>FINVERIFY AI</b>
+  <br>
+  <sub>TRUST GAP ANALYZER</sub>
+</td>
+
+<td width="25%" align="center" valign="middle">
+  <img src="https://placehold.co/245x1/transparent/transparent" width="245" height="1" alt="">
+  <br>
+  <code>SB-002</code>
+  <br><br>
+  <b>SOLIBENCHED</b>
+  <br>
+  <sub>LLM BENCHMARK</sub>
+</td>
+
+<td width="25%" align="center" valign="middle">
+  <img src="https://placehold.co/245x1/transparent/transparent" width="245" height="1" alt="">
+  <br>
+  <code>CF-003</code>
+  <br><br>
+  <b>CODEFLOWVIZ 2.0</b>
+  <br>
+  <sub>EXECUTION TRACER</sub>
+</td>
+
+<td width="25%" align="center" valign="middle">
+  <img src="https://placehold.co/245x1/transparent/transparent" width="245" height="1" alt="">
+  <br>
+  <code>AZ-004</code>
+  <br><br>
+  <b>ALGOZENITH KIIT</b>
+  <br>
+  <sub>COMMUNITY PLATFORM</sub>
+</td>
+
+</tr>
+
+
+<tr>
+
+<td align="center">
+  <sub>BLOOD GROUP</sub>
+  <br><br>
+  <img src="https://cdn.simpleicons.org/python/8B949E" width="23" height="23" alt="Python">
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/fastapi/8B949E" width="23" height="23" alt="FastAPI">
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/javascript/8B949E" width="23" height="23" alt="JavaScript">
+</td>
+
+<td align="center">
+  <sub>BLOOD GROUP</sub>
+  <br><br>
+  <img src="https://cdn.simpleicons.org/nextdotjs/8B949E" width="23" height="23" alt="Next.js">
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/typescript/8B949E" width="23" height="23" alt="TypeScript">
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/python/8B949E" width="23" height="23" alt="Python">
+</td>
+
+<td align="center">
+  <sub>BLOOD GROUP</sub>
+  <br><br>
+  <img src="https://cdn.simpleicons.org/nextdotjs/8B949E" width="23" height="23" alt="Next.js">
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/nodedotjs/8B949E" width="23" height="23" alt="Node.js">
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/javascript/8B949E" width="23" height="23" alt="JavaScript">
+</td>
+
+<td align="center">
+  <sub>BLOOD GROUP</sub>
+  <br><br>
+  <img src="https://cdn.simpleicons.org/react/8B949E" width="23" height="23" alt="React">
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/typescript/8B949E" width="23" height="23" alt="TypeScript">
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/express/8B949E" width="23" height="23" alt="Express">
+</td>
+
+</tr>
+
+
+<tr>
+
+<td align="center">
+  <sub>ADDRESS</sub>
+  <br><br>
+  <a href="https://github.com/kauntiaakash2/FinVerifyAI"><img src="https://img.shields.io/badge/GITHUB_HQ-21262D?style=flat-square&logo=github&logoColor=8B949E" alt="Repository"></a>
+</td>
+
+<td align="center">
+  <sub>ADDRESS</sub>
+  <br><br>
+  <a href="https://solibenched.vercel.app/"><img src="https://img.shields.io/badge/LIVE-21262D?style=flat-square&logo=vercel&logoColor=8B949E" alt="Live"></a>
+</td>
+
+<td align="center">
+  <sub>ADDRESS</sub>
+  <br><br>
+  <a href="https://code-flow-viz-2-0-frontend.vercel.app/"><img src="https://img.shields.io/badge/LIVE-21262D?style=flat-square&logo=vercel&logoColor=8B949E" alt="Live"></a>
+</td>
+
+<td align="center">
+  <sub>ADDRESS</sub>
+  <br><br>
+  <a href="https://algozenithkiit.codes/"><img src="https://img.shields.io/badge/LIVE-21262D?style=flat-square&logo=googlechrome&logoColor=8B949E" alt="Live"></a>
+</td>
+
+</tr>
+
+
+<tr>
+
+<td align="center">
+  <a href="https://github.com/kauntiaakash2/FinVerifyAI"><img src="https://cdn.simpleicons.org/github/8B949E" width="21" height="21" alt="GitHub"></a>
+</td>
+
+<td align="center">
+  <a href="https://github.com/kauntiaakash2/SoliBenched"><img src="https://cdn.simpleicons.org/github/8B949E" width="21" height="21" alt="GitHub"></a>&nbsp;&nbsp;&nbsp;<a href="https://solibenched.vercel.app/"><img src="https://cdn.simpleicons.org/vercel/8B949E" width="21" height="21" alt="Website"></a>
+</td>
+
+<td align="center">
+  <a href="https://github.com/kauntiaakash2/CodeFlowViz-2.0"><img src="https://cdn.simpleicons.org/github/8B949E" width="21" height="21" alt="GitHub"></a>&nbsp;&nbsp;&nbsp;<a href="https://code-flow-viz-2-0-frontend.vercel.app/"><img src="https://cdn.simpleicons.org/vercel/8B949E" width="21" height="21" alt="Website"></a>
+</td>
+
+<td align="center">
+  <a href="https://github.com/kauntiaakash2/AlgoZenith-Website"><img src="https://cdn.simpleicons.org/github/8B949E" width="21" height="21" alt="GitHub"></a>&nbsp;&nbsp;&nbsp;<a href="https://algozenithkiit.codes/"><img src="https://cdn.simpleicons.org/googlechrome/8B949E" width="21" height="21" alt="Website"></a>
+</td>
+
+</tr>
+
+</table>
+
+
+
+
+## `TECH-MATRIX`
+
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,nodejs,express,fastapi,flask,python,tensorflow,pytorch,mongodb,mysql,docker,aws,git,github,postman,vscode,vercel,cpp,c,java" />
 </div>
 
-## `TELEMETRY --LIVE`
+## `TELEMETRY`
 
 <div align="center">
 
