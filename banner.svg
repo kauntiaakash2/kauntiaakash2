@@ -1,54 +1,722 @@
-<svg width="1000" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1000"
+  height="220"
+  viewBox="0 0 1000 220"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Akash Agarwal — Pixel Identity</title>
+  <desc id="desc">
+    Transparent retro pixel banner with adaptive light and dark theme.
+  </desc>
 
-  <!-- Background -->
-  <rect width="100%" height="100%" fill="#000000"/>
-
-  <!-- Dotted pattern -->
   <defs>
-    <pattern id="dots" width="6" height="6" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="0.8" fill="#00ff88" opacity="0.15"/>
-    </pattern>
 
-    <!-- Typing mask -->
-    <mask id="typeMask">
-      <rect x="0" y="0" width="0" height="220" fill="white">
-        <animate attributeName="width"
-                 from="0" to="1000"
-                 dur="2s"
-                 fill="freeze" />
-      </rect>
-    </mask>
+    <!-- =========================================
+         THEME
+         Light device -> dark artwork
+         Dark device  -> light artwork
+    ========================================== -->
+
+    <style>
+      :root {
+        --ink: #1f2328;
+        --muted: #656d76;
+        --faint: #afb8c1;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --ink: #f0f6fc;
+          --muted: #8b949e;
+          --faint: #30363d;
+        }
+      }
+
+      .px {
+        fill: var(--ink);
+        shape-rendering: crispEdges;
+      }
+
+      .muted {
+        fill: var(--muted);
+        shape-rendering: crispEdges;
+      }
+
+      .faint {
+        fill: var(--faint);
+        shape-rendering: crispEdges;
+      }
+
+      .rule {
+        stroke: var(--faint);
+        shape-rendering: crispEdges;
+      }
+
+      text {
+        font-family:
+          ui-monospace,
+          SFMono-Regular,
+          Menlo,
+          Monaco,
+          Consolas,
+          "Liberation Mono",
+          "Courier New",
+          monospace;
+      }
+
+      .micro {
+        fill: var(--muted);
+        font-size: 10px;
+        letter-spacing: 2px;
+      }
+
+      .label {
+        fill: var(--ink);
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 2.5px;
+      }
+
+      /* =========================================
+         PIXEL NAME REVEAL
+      ========================================== */
+
+      .letter {
+        opacity: 0;
+        animation: pixel-in .12s steps(1, end) forwards;
+      }
+
+      .l0  { animation-delay: .10s; }
+      .l1  { animation-delay: .18s; }
+      .l2  { animation-delay: .26s; }
+      .l3  { animation-delay: .34s; }
+      .l4  { animation-delay: .42s; }
+
+      .l5  { animation-delay: .58s; }
+      .l6  { animation-delay: .66s; }
+      .l7  { animation-delay: .74s; }
+      .l8  { animation-delay: .82s; }
+      .l9  { animation-delay: .90s; }
+      .l10 { animation-delay: .98s; }
+      .l11 { animation-delay: 1.06s; }
+
+      @keyframes pixel-in {
+        to {
+          opacity: 1;
+        }
+      }
+
+      /* =========================================
+         CURSOR
+      ========================================== */
+
+      .cursor {
+        fill: var(--ink);
+        animation: cursor-blink 1s steps(1, end) infinite;
+      }
+
+      @keyframes cursor-blink {
+        0%,
+        49% {
+          opacity: 1;
+        }
+
+        50%,
+        100% {
+          opacity: 0;
+        }
+      }
+
+      /* =========================================
+         ONLINE INDICATOR
+      ========================================== */
+
+      .online {
+        animation: online-pulse 1.8s steps(2, end) infinite;
+      }
+
+      @keyframes online-pulse {
+        0%,
+        100% {
+          opacity: .3;
+        }
+
+        50% {
+          opacity: 1;
+        }
+      }
+
+      /* =========================================
+         DATA SIGNAL
+      ========================================== */
+
+      .data {
+        fill: var(--faint);
+        opacity: .28;
+      }
+
+      .scanner {
+        fill: var(--ink);
+        animation: scan 3.2s steps(16, end) infinite;
+      }
+
+      @keyframes scan {
+        0% {
+          transform: translateX(0);
+        }
+
+        100% {
+          transform: translateX(720px);
+        }
+      }
+
+      /* =========================================
+         REDUCED MOTION
+      ========================================== */
+
+      @media (prefers-reduced-motion: reduce) {
+        .letter {
+          opacity: 1;
+          animation: none;
+        }
+
+        .cursor,
+        .online,
+        .scanner {
+          animation: none;
+        }
+      }
+    </style>
+
+
+    <!-- =========================================
+         5 × 7 PIXEL FONT
+    ========================================== -->
+
+    <g id="A" class="px">
+      <path d="
+        M10 0h8v8h-8z
+        M20 0h8v8h-8z
+        M30 0h8v8h-8z
+
+        M0 10h8v8h-8z
+        M40 10h8v8h-8z
+
+        M0 20h8v8h-8z
+        M40 20h8v8h-8z
+
+        M0 30h8v8h-8z
+        M10 30h8v8h-8z
+        M20 30h8v8h-8z
+        M30 30h8v8h-8z
+        M40 30h8v8h-8z
+
+        M0 40h8v8h-8z
+        M40 40h8v8h-8z
+
+        M0 50h8v8h-8z
+        M40 50h8v8h-8z
+
+        M0 60h8v8h-8z
+        M40 60h8v8h-8z
+      "/>
+    </g>
+
+
+    <g id="K" class="px">
+      <path d="
+        M0 0h8v8h-8z
+        M40 0h8v8h-8z
+
+        M0 10h8v8h-8z
+        M30 10h8v8h-8z
+
+        M0 20h8v8h-8z
+        M20 20h8v8h-8z
+
+        M0 30h8v8h-8z
+        M10 30h8v8h-8z
+
+        M0 40h8v8h-8z
+        M20 40h8v8h-8z
+
+        M0 50h8v8h-8z
+        M30 50h8v8h-8z
+
+        M0 60h8v8h-8z
+        M40 60h8v8h-8z
+      "/>
+    </g>
+
+
+    <g id="S" class="px">
+      <path d="
+        M10 0h8v8h-8z
+        M20 0h8v8h-8z
+        M30 0h8v8h-8z
+        M40 0h8v8h-8z
+
+        M0 10h8v8h-8z
+        M0 20h8v8h-8z
+
+        M10 30h8v8h-8z
+        M20 30h8v8h-8z
+        M30 30h8v8h-8z
+
+        M40 40h8v8h-8z
+        M40 50h8v8h-8z
+
+        M0 60h8v8h-8z
+        M10 60h8v8h-8z
+        M20 60h8v8h-8z
+        M30 60h8v8h-8z
+      "/>
+    </g>
+
+
+    <g id="H" class="px">
+      <path d="
+        M0 0h8v8h-8z
+        M40 0h8v8h-8z
+
+        M0 10h8v8h-8z
+        M40 10h8v8h-8z
+
+        M0 20h8v8h-8z
+        M40 20h8v8h-8z
+
+        M0 30h8v8h-8z
+        M10 30h8v8h-8z
+        M20 30h8v8h-8z
+        M30 30h8v8h-8z
+        M40 30h8v8h-8z
+
+        M0 40h8v8h-8z
+        M40 40h8v8h-8z
+
+        M0 50h8v8h-8z
+        M40 50h8v8h-8z
+
+        M0 60h8v8h-8z
+        M40 60h8v8h-8z
+      "/>
+    </g>
+
+
+    <g id="G" class="px">
+      <path d="
+        M10 0h8v8h-8z
+        M20 0h8v8h-8z
+        M30 0h8v8h-8z
+
+        M0 10h8v8h-8z
+        M40 10h8v8h-8z
+
+        M0 20h8v8h-8z
+
+        M0 30h8v8h-8z
+        M20 30h8v8h-8z
+        M30 30h8v8h-8z
+        M40 30h8v8h-8z
+
+        M0 40h8v8h-8z
+        M40 40h8v8h-8z
+
+        M0 50h8v8h-8z
+        M40 50h8v8h-8z
+
+        M10 60h8v8h-8z
+        M20 60h8v8h-8z
+        M30 60h8v8h-8z
+      "/>
+    </g>
+
+
+    <g id="R" class="px">
+      <path d="
+        M0 0h8v8h-8z
+        M10 0h8v8h-8z
+        M20 0h8v8h-8z
+        M30 0h8v8h-8z
+
+        M0 10h8v8h-8z
+        M40 10h8v8h-8z
+
+        M0 20h8v8h-8z
+        M40 20h8v8h-8z
+
+        M0 30h8v8h-8z
+        M10 30h8v8h-8z
+        M20 30h8v8h-8z
+        M30 30h8v8h-8z
+
+        M0 40h8v8h-8z
+        M20 40h8v8h-8z
+
+        M0 50h8v8h-8z
+        M30 50h8v8h-8z
+
+        M0 60h8v8h-8z
+        M40 60h8v8h-8z
+      "/>
+    </g>
+
+
+    <g id="W" class="px">
+      <path d="
+        M0 0h8v8h-8z
+        M40 0h8v8h-8z
+
+        M0 10h8v8h-8z
+        M40 10h8v8h-8z
+
+        M0 20h8v8h-8z
+        M40 20h8v8h-8z
+
+        M0 30h8v8h-8z
+        M20 30h8v8h-8z
+        M40 30h8v8h-8z
+
+        M0 40h8v8h-8z
+        M20 40h8v8h-8z
+        M40 40h8v8h-8z
+
+        M0 50h8v8h-8z
+        M10 50h8v8h-8z
+        M30 50h8v8h-8z
+        M40 50h8v8h-8z
+
+        M0 60h8v8h-8z
+        M40 60h8v8h-8z
+      "/>
+    </g>
+
+
+    <g id="L" class="px">
+      <path d="
+        M0 0h8v8h-8z
+        M0 10h8v8h-8z
+        M0 20h8v8h-8z
+        M0 30h8v8h-8z
+        M0 40h8v8h-8z
+        M0 50h8v8h-8z
+
+        M0 60h8v8h-8z
+        M10 60h8v8h-8z
+        M20 60h8v8h-8z
+        M30 60h8v8h-8z
+        M40 60h8v8h-8z
+      "/>
+    </g>
+
+
+    <!-- reusable data pixel -->
+    <g id="bit">
+      <rect width="8" height="8"/>
+    </g>
+
   </defs>
 
-  <rect width="100%" height="100%" fill="url(#dots)" />
 
-  <!-- Terminal prompt -->
-  <text x="20" y="40" fill="#00ff88" font-family="monospace" font-size="18">
-    akash@portfolio:~$
-  </text>
+  <!--
+    NO BACKGROUND RECT
+    Transparent by design.
+  -->
 
-  <!-- Typing text -->
-  <g mask="url(#typeMask)">
-    <text x="50%" y="55%" text-anchor="middle"
-          fill="#39FF14"
-          font-family="monospace"
-          font-size="48">
-      AKASH AGARWAL
-    </text>
+
+  <!-- =========================================
+       CORNER MARKERS
+  ========================================== -->
+
+  <g class="faint">
+
+    <rect x="36" y="28" width="42" height="4"/>
+    <rect x="36" y="28" width="4" height="26"/>
+
+    <rect x="922" y="28" width="42" height="4"/>
+    <rect x="960" y="28" width="4" height="26"/>
+
+    <rect x="36" y="192" width="42" height="4"/>
+    <rect x="36" y="170" width="4" height="26"/>
+
+    <rect x="922" y="192" width="42" height="4"/>
+    <rect x="960" y="170" width="4" height="26"/>
+
   </g>
 
-  <!-- Blinking cursor (starts after typing) -->
-  <text x="720" y="120"
-        fill="#39FF14"
-        font-family="monospace"
-        font-size="48"
-        opacity="0">
-    _
-    <animate attributeName="opacity"
-             values="0;1;0"
-             dur="1s"
-             begin="2s"
-             repeatCount="indefinite" />
+
+  <!-- =========================================
+       TOP META
+  ========================================== -->
+
+  <text
+    x="92"
+    y="39"
+    class="micro"
+  >
+    SYS://IDENTITY
+  </text>
+
+
+  <g transform="translate(500 35)">
+
+    <rect
+      x="-4"
+      y="-4"
+      width="8"
+      height="8"
+      class="muted"
+    />
+
+    <rect
+      x="-18"
+      y="-2"
+      width="8"
+      height="4"
+      class="faint"
+    />
+
+    <rect
+      x="10"
+      y="-2"
+      width="8"
+      height="4"
+      class="faint"
+    />
+
+  </g>
+
+
+  <text
+    x="908"
+    y="39"
+    text-anchor="end"
+    class="micro"
+  >
+    KAUNTIAAKASH2
+  </text>
+
+
+  <!-- top pixel rails -->
+
+  <g class="faint">
+
+    <rect x="92" y="51" width="28" height="3"/>
+    <rect x="128" y="51" width="8" height="3"/>
+
+    <rect x="864" y="51" width="8" height="3"/>
+    <rect x="880" y="51" width="28" height="3"/>
+
+  </g>
+
+
+  <!-- =========================================
+       PIXEL NAME
+       AKASH AGARWAL
+  ========================================== -->
+
+  <g aria-label="AKASH AGARWAL">
+
+    <!-- AKASH -->
+
+    <use
+      href="#A"
+      transform="translate(139 68)"
+      class="letter l0"
+    />
+
+    <use
+      href="#K"
+      transform="translate(197 68)"
+      class="letter l1"
+    />
+
+    <use
+      href="#A"
+      transform="translate(255 68)"
+      class="letter l2"
+    />
+
+    <use
+      href="#S"
+      transform="translate(313 68)"
+      class="letter l3"
+    />
+
+    <use
+      href="#H"
+      transform="translate(371 68)"
+      class="letter l4"
+    />
+
+
+    <!-- AGARWAL -->
+
+    <use
+      href="#A"
+      transform="translate(465 68)"
+      class="letter l5"
+    />
+
+    <use
+      href="#G"
+      transform="translate(523 68)"
+      class="letter l6"
+    />
+
+    <use
+      href="#A"
+      transform="translate(581 68)"
+      class="letter l7"
+    />
+
+    <use
+      href="#R"
+      transform="translate(639 68)"
+      class="letter l8"
+    />
+
+    <use
+      href="#W"
+      transform="translate(697 68)"
+      class="letter l9"
+    />
+
+    <use
+      href="#A"
+      transform="translate(755 68)"
+      class="letter l10"
+    />
+
+    <use
+      href="#L"
+      transform="translate(813 68)"
+      class="letter l11"
+    />
+
+  </g>
+
+
+  <!-- =========================================
+       PIXEL CURSOR
+  ========================================== -->
+
+  <rect
+    x="875"
+    y="128"
+    width="9"
+    height="9"
+    class="cursor"
+  />
+
+
+  <!-- =========================================
+       ROLE
+  ========================================== -->
+
+  <text
+    x="500"
+    y="159"
+    text-anchor="middle"
+    class="label"
+  >
+    SOFTWARE ENGINEER // BUILDER
+  </text>
+
+
+  <!-- =========================================
+       DATA RAIL
+  ========================================== -->
+
+  <line
+    x1="116"
+    y1="180"
+    x2="884"
+    y2="180"
+    class="rule"
+    stroke-width="1"
+  />
+
+
+  <!-- static pixel rail -->
+
+  <g class="data">
+
+    <use href="#bit" x="122" y="176"/>
+    <use href="#bit" x="170" y="176"/>
+    <use href="#bit" x="218" y="176"/>
+    <use href="#bit" x="266" y="176"/>
+    <use href="#bit" x="314" y="176"/>
+    <use href="#bit" x="362" y="176"/>
+    <use href="#bit" x="410" y="176"/>
+    <use href="#bit" x="458" y="176"/>
+    <use href="#bit" x="506" y="176"/>
+    <use href="#bit" x="554" y="176"/>
+    <use href="#bit" x="602" y="176"/>
+    <use href="#bit" x="650" y="176"/>
+    <use href="#bit" x="698" y="176"/>
+    <use href="#bit" x="746" y="176"/>
+    <use href="#bit" x="794" y="176"/>
+    <use href="#bit" x="842" y="176"/>
+
+  </g>
+
+
+  <!-- animated signal -->
+
+  <rect
+    x="122"
+    y="176"
+    width="8"
+    height="8"
+    class="scanner"
+  />
+
+
+  <!-- =========================================
+       BOTTOM META
+  ========================================== -->
+
+  <g transform="translate(92 201)">
+
+    <rect
+      x="0"
+      y="-7"
+      width="6"
+      height="6"
+      class="muted online"
+    />
+
+    <text
+      x="14"
+      y="0"
+      class="micro"
+    >
+      ONLINE
+    </text>
+
+  </g>
+
+
+  <text
+    x="500"
+    y="201"
+    text-anchor="middle"
+    class="micro"
+  >
+    BUILD • SHIP • ITERATE
+  </text>
+
+
+  <text
+    x="908"
+    y="201"
+    text-anchor="end"
+    class="micro"
+  >
+    README://ROOT
   </text>
 
 </svg>
