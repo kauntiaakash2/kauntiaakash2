@@ -211,20 +211,17 @@ frames and visual design.
 <p align="center">
 <a href="https://www.linkedin.com/in/kauntiakash2/" title="LinkedIn"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/White/LinkedIN_white.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Black/LinkedIN_black.svg"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Black/LinkedIN_black.svg" alt="LinkedIn" width="34" height="34"></picture></a>&nbsp;&nbsp;&nbsp;
 <a href="https://x.com/kauntiaakash2" title="X"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/x/FFFFFF"><source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/x/000000"><img src="https://cdn.simpleicons.org/x/000000" alt="X" width="34" height="34"></picture></a>&nbsp;&nbsp;&nbsp;
-<a href="https://wa.me/9109060245158" title="WhatsApp"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/whatsapp/FFFFFF"><source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/whatsapp/000000"><img src="https://cdn.simpleicons.org/whatsapp/000000" alt="WhatsApp" width="34" height="34"></picture></a>&nbsp;&nbsp;&nbsp;
 <a href="https://www.youtube.com/@kauntiakash2" title="YouTube"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/youtube/FFFFFF"><source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/youtube/000000"><img src="https://cdn.simpleicons.org/youtube/000000" alt="YouTube" width="34" height="34"></picture></a>&nbsp;&nbsp;&nbsp;
 <a href="mailto:akashkauntia2006@gmail.com" title="Email"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/gmail/FFFFFF"><source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/gmail/000000"><img src="https://cdn.simpleicons.org/gmail/000000" alt="Email" width="34" height="34"></picture></a>&nbsp;&nbsp;&nbsp;
 <a href="https://kauntiaakash2.tech/" title="Portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/googlechrome/FFFFFF"><source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/googlechrome/000000"><img src="https://cdn.simpleicons.org/googlechrome/000000" alt="Portfolio" width="34" height="34"></picture></a>
 </p>
 
----
-
-<div align="center">
+<!-- <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
-</div>
+</div> -->
 
 
----
+## `GAME TIME`
 
 
 <div align="center">
@@ -249,12 +246,18 @@ frames and visual design.
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/output/github-snake.svg" />
   <img alt="github contribution snake" src="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/output/github-snake.svg" />
 </picture> -->
+---
 
-<h3> Thanks for visiting my terminal. Explore, fork, build, and star!</h3>
+<h3 align="center">
+  <code>Thanks for stopping by.</code>
+</h3>
+
+<p align="center">
+  <h3><code>Explore the repos</code> • <code>Fork an idea</code> • <code>Build something better</code> • <code>Leave a ⭐</code></h3>
+</p>
+
+---
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" alt="Bottom Line" width="100%" />
-</div>
-<!-- <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:00f5ff,50:302b63,100:0f0c29" /> -->
-
 </div>
