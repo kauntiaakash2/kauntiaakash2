@@ -6,20 +6,27 @@
   role="img"
   aria-labelledby="title desc"
 >
-  <title id="title">Akash Agarwal — Pixel Identity</title>
+
+  <title id="title">
+    Akash Agarwal — Pixel Identity
+  </title>
+
   <desc id="desc">
     Transparent retro pixel banner with adaptive light and dark theme.
   </desc>
 
+
   <defs>
 
-    <!-- =========================================
-         THEME
-         Light device -> dark artwork
-         Dark device  -> light artwork
-    ========================================== -->
-
     <style>
+
+      /* ==================================================
+         THEME
+
+         LIGHT SYSTEM THEME -> DARK ARTWORK
+         DARK SYSTEM THEME  -> LIGHT ARTWORK
+      ================================================== */
+
       :root {
         --ink: #1f2328;
         --muted: #656d76;
@@ -33,6 +40,11 @@
           --faint: #30363d;
         }
       }
+
+
+      /* ==================================================
+         BASE PIXEL STYLING
+      ================================================== */
 
       .px {
         fill: var(--ink);
@@ -53,6 +65,11 @@
         stroke: var(--faint);
         shape-rendering: crispEdges;
       }
+
+
+      /* ==================================================
+         TEXT
+      ================================================== */
 
       text {
         font-family:
@@ -79,123 +96,28 @@
         letter-spacing: 2.5px;
       }
 
-      /* =========================================
-         PIXEL NAME REVEAL
-      ========================================== */
 
-      .letter {
-        opacity: 0;
-        animation: pixel-in .12s steps(1, end) forwards;
-      }
-
-      .l0  { animation-delay: .10s; }
-      .l1  { animation-delay: .18s; }
-      .l2  { animation-delay: .26s; }
-      .l3  { animation-delay: .34s; }
-      .l4  { animation-delay: .42s; }
-
-      .l5  { animation-delay: .58s; }
-      .l6  { animation-delay: .66s; }
-      .l7  { animation-delay: .74s; }
-      .l8  { animation-delay: .82s; }
-      .l9  { animation-delay: .90s; }
-      .l10 { animation-delay: .98s; }
-      .l11 { animation-delay: 1.06s; }
-
-      @keyframes pixel-in {
-        to {
-          opacity: 1;
-        }
-      }
-
-      /* =========================================
-         CURSOR
-      ========================================== */
-
-      .cursor {
-        fill: var(--ink);
-        animation: cursor-blink 1s steps(1, end) infinite;
-      }
-
-      @keyframes cursor-blink {
-        0%,
-        49% {
-          opacity: 1;
-        }
-
-        50%,
-        100% {
-          opacity: 0;
-        }
-      }
-
-      /* =========================================
-         ONLINE INDICATOR
-      ========================================== */
-
-      .online {
-        animation: online-pulse 1.8s steps(2, end) infinite;
-      }
-
-      @keyframes online-pulse {
-        0%,
-        100% {
-          opacity: .3;
-        }
-
-        50% {
-          opacity: 1;
-        }
-      }
-
-      /* =========================================
-         DATA SIGNAL
-      ========================================== */
+      /* ==================================================
+         STATIC DATA RAIL
+      ================================================== */
 
       .data {
         fill: var(--faint);
-        opacity: .28;
+        opacity: 0.28;
       }
 
-      .scanner {
-        fill: var(--ink);
-        animation: scan 3.2s steps(16, end) infinite;
-      }
-
-      @keyframes scan {
-        0% {
-          transform: translateX(0);
-        }
-
-        100% {
-          transform: translateX(720px);
-        }
-      }
-
-      /* =========================================
-         REDUCED MOTION
-      ========================================== */
-
-      @media (prefers-reduced-motion: reduce) {
-        .letter {
-          opacity: 1;
-          animation: none;
-        }
-
-        .cursor,
-        .online,
-        .scanner {
-          animation: none;
-        }
-      }
     </style>
 
 
-    <!-- =========================================
+    <!-- ==================================================
          5 × 7 PIXEL FONT
-    ========================================== -->
+    ================================================== -->
+
+
+    <!-- A -->
 
     <g id="A" class="px">
+
       <path d="
         M10 0h8v8h-8z
         M20 0h8v8h-8z
@@ -222,10 +144,14 @@
         M0 60h8v8h-8z
         M40 60h8v8h-8z
       "/>
+
     </g>
 
 
+    <!-- K -->
+
     <g id="K" class="px">
+
       <path d="
         M0 0h8v8h-8z
         M40 0h8v8h-8z
@@ -248,10 +174,14 @@
         M0 60h8v8h-8z
         M40 60h8v8h-8z
       "/>
+
     </g>
 
 
+    <!-- S -->
+
     <g id="S" class="px">
+
       <path d="
         M10 0h8v8h-8z
         M20 0h8v8h-8z
@@ -273,10 +203,14 @@
         M20 60h8v8h-8z
         M30 60h8v8h-8z
       "/>
+
     </g>
 
 
+    <!-- H -->
+
     <g id="H" class="px">
+
       <path d="
         M0 0h8v8h-8z
         M40 0h8v8h-8z
@@ -302,10 +236,14 @@
         M0 60h8v8h-8z
         M40 60h8v8h-8z
       "/>
+
     </g>
 
 
+    <!-- G -->
+
     <g id="G" class="px">
+
       <path d="
         M10 0h8v8h-8z
         M20 0h8v8h-8z
@@ -331,10 +269,14 @@
         M20 60h8v8h-8z
         M30 60h8v8h-8z
       "/>
+
     </g>
 
 
+    <!-- R -->
+
     <g id="R" class="px">
+
       <path d="
         M0 0h8v8h-8z
         M10 0h8v8h-8z
@@ -361,10 +303,14 @@
         M0 60h8v8h-8z
         M40 60h8v8h-8z
       "/>
+
     </g>
 
 
+    <!-- W -->
+
     <g id="W" class="px">
+
       <path d="
         M0 0h8v8h-8z
         M40 0h8v8h-8z
@@ -391,10 +337,14 @@
         M0 60h8v8h-8z
         M40 60h8v8h-8z
       "/>
+
     </g>
 
 
+    <!-- L -->
+
     <g id="L" class="px">
+
       <path d="
         M0 0h8v8h-8z
         M0 10h8v8h-8z
@@ -409,10 +359,12 @@
         M30 60h8v8h-8z
         M40 60h8v8h-8z
       "/>
+
     </g>
 
 
     <!-- reusable data pixel -->
+
     <g id="bit">
       <rect width="8" height="8"/>
     </g>
@@ -420,36 +372,96 @@
   </defs>
 
 
-  <!--
-    NO BACKGROUND RECT
-    Transparent by design.
-  -->
+
+  <!-- ==================================================
+       TRANSPARENT BACKGROUND
+
+       No background <rect>.
+       README background remains visible.
+  ================================================== -->
 
 
-  <!-- =========================================
+
+  <!-- ==================================================
        CORNER MARKERS
-  ========================================== -->
+  ================================================== -->
 
   <g class="faint">
 
-    <rect x="36" y="28" width="42" height="4"/>
-    <rect x="36" y="28" width="4" height="26"/>
+    <!-- top left -->
 
-    <rect x="922" y="28" width="42" height="4"/>
-    <rect x="960" y="28" width="4" height="26"/>
+    <rect
+      x="36"
+      y="28"
+      width="42"
+      height="4"
+    />
 
-    <rect x="36" y="192" width="42" height="4"/>
-    <rect x="36" y="170" width="4" height="26"/>
+    <rect
+      x="36"
+      y="28"
+      width="4"
+      height="26"
+    />
 
-    <rect x="922" y="192" width="42" height="4"/>
-    <rect x="960" y="170" width="4" height="26"/>
+
+    <!-- top right -->
+
+    <rect
+      x="922"
+      y="28"
+      width="42"
+      height="4"
+    />
+
+    <rect
+      x="960"
+      y="28"
+      width="4"
+      height="26"
+    />
+
+
+    <!-- bottom left -->
+
+    <rect
+      x="36"
+      y="192"
+      width="42"
+      height="4"
+    />
+
+    <rect
+      x="36"
+      y="170"
+      width="4"
+      height="26"
+    />
+
+
+    <!-- bottom right -->
+
+    <rect
+      x="922"
+      y="192"
+      width="42"
+      height="4"
+    />
+
+    <rect
+      x="960"
+      y="170"
+      width="4"
+      height="26"
+    />
 
   </g>
 
 
-  <!-- =========================================
+
+  <!-- ==================================================
        TOP META
-  ========================================== -->
+  ================================================== -->
 
   <text
     x="92"
@@ -460,6 +472,9 @@
   </text>
 
 
+
+  <!-- center marker -->
+
   <g transform="translate(500 35)">
 
     <rect
@@ -468,7 +483,19 @@
       width="8"
       height="8"
       class="muted"
-    />
+    >
+
+      <!-- forced pulse -->
+
+      <animate
+        attributeName="opacity"
+        values="0.35;1;0.35"
+        dur="2s"
+        repeatCount="indefinite"
+      />
+
+    </rect>
+
 
     <rect
       x="-18"
@@ -477,6 +504,7 @@
       height="4"
       class="faint"
     />
+
 
     <rect
       x="10"
@@ -489,6 +517,7 @@
   </g>
 
 
+
   <text
     x="908"
     y="39"
@@ -499,122 +528,352 @@
   </text>
 
 
-  <!-- top pixel rails -->
+
+  <!-- ==================================================
+       TOP PIXEL RAILS
+  ================================================== -->
 
   <g class="faint">
 
-    <rect x="92" y="51" width="28" height="3"/>
-    <rect x="128" y="51" width="8" height="3"/>
+    <rect
+      x="92"
+      y="51"
+      width="28"
+      height="3"
+    />
 
-    <rect x="864" y="51" width="8" height="3"/>
-    <rect x="880" y="51" width="28" height="3"/>
+    <rect
+      x="128"
+      y="51"
+      width="8"
+      height="3"
+    />
+
+
+    <rect
+      x="864"
+      y="51"
+      width="8"
+      height="3"
+    />
+
+    <rect
+      x="880"
+      y="51"
+      width="28"
+      height="3"
+    />
 
   </g>
 
 
-  <!-- =========================================
+
+  <!-- ==================================================
        PIXEL NAME
        AKASH AGARWAL
-  ========================================== -->
+  ================================================== -->
 
   <g aria-label="AKASH AGARWAL">
 
-    <!-- AKASH -->
+
+    <!-- =========================
+         A
+    ========================== -->
 
     <use
       href="#A"
       transform="translate(139 68)"
-      class="letter l0"
-    />
+      opacity="0"
+    >
+
+      <animate
+        attributeName="opacity"
+        from="0"
+        to="1"
+        dur="0.01s"
+        begin="0.10s"
+        fill="freeze"
+      />
+
+    </use>
+
+
+
+    <!-- K -->
 
     <use
       href="#K"
       transform="translate(197 68)"
-      class="letter l1"
-    />
+      opacity="0"
+    >
+
+      <animate
+        attributeName="opacity"
+        from="0"
+        to="1"
+        dur="0.01s"
+        begin="0.18s"
+        fill="freeze"
+      />
+
+    </use>
+
+
+
+    <!-- A -->
 
     <use
       href="#A"
       transform="translate(255 68)"
-      class="letter l2"
-    />
+      opacity="0"
+    >
+
+      <animate
+        attributeName="opacity"
+        from="0"
+        to="1"
+        dur="0.01s"
+        begin="0.26s"
+        fill="freeze"
+      />
+
+    </use>
+
+
+
+    <!-- S -->
 
     <use
       href="#S"
       transform="translate(313 68)"
-      class="letter l3"
-    />
+      opacity="0"
+    >
+
+      <animate
+        attributeName="opacity"
+        from="0"
+        to="1"
+        dur="0.01s"
+        begin="0.34s"
+        fill="freeze"
+      />
+
+    </use>
+
+
+
+    <!-- H -->
 
     <use
       href="#H"
       transform="translate(371 68)"
-      class="letter l4"
-    />
+      opacity="0"
+    >
+
+      <animate
+        attributeName="opacity"
+        from="0"
+        to="1"
+        dur="0.01s"
+        begin="0.42s"
+        fill="freeze"
+      />
+
+    </use>
 
 
-    <!-- AGARWAL -->
+
+    <!-- =========================
+         AGARWAL
+    ========================== -->
+
+    <!-- A -->
 
     <use
       href="#A"
       transform="translate(465 68)"
-      class="letter l5"
-    />
+      opacity="0"
+    >
+
+      <animate
+        attributeName="opacity"
+        from="0"
+        to="1"
+        dur="0.01s"
+        begin="0.58s"
+        fill="freeze"
+      />
+
+    </use>
+
+
+
+    <!-- G -->
 
     <use
       href="#G"
       transform="translate(523 68)"
-      class="letter l6"
-    />
+      opacity="0"
+    >
+
+      <animate
+        attributeName="opacity"
+        from="0"
+        to="1"
+        dur="0.01s"
+        begin="0.66s"
+        fill="freeze"
+      />
+
+    </use>
+
+
+
+    <!-- A -->
 
     <use
       href="#A"
       transform="translate(581 68)"
-      class="letter l7"
-    />
+      opacity="0"
+    >
+
+      <animate
+        attributeName="opacity"
+        from="0"
+        to="1"
+        dur="0.01s"
+        begin="0.74s"
+        fill="freeze"
+      />
+
+    </use>
+
+
+
+    <!-- R -->
 
     <use
       href="#R"
       transform="translate(639 68)"
-      class="letter l8"
-    />
+      opacity="0"
+    >
+
+      <animate
+        attributeName="opacity"
+        from="0"
+        to="1"
+        dur="0.01s"
+        begin="0.82s"
+        fill="freeze"
+      />
+
+    </use>
+
+
+
+    <!-- W -->
 
     <use
       href="#W"
       transform="translate(697 68)"
-      class="letter l9"
-    />
+      opacity="0"
+    >
+
+      <animate
+        attributeName="opacity"
+        from="0"
+        to="1"
+        dur="0.01s"
+        begin="0.90s"
+        fill="freeze"
+      />
+
+    </use>
+
+
+
+    <!-- A -->
 
     <use
       href="#A"
       transform="translate(755 68)"
-      class="letter l10"
-    />
+      opacity="0"
+    >
+
+      <animate
+        attributeName="opacity"
+        from="0"
+        to="1"
+        dur="0.01s"
+        begin="0.98s"
+        fill="freeze"
+      />
+
+    </use>
+
+
+
+    <!-- L -->
 
     <use
       href="#L"
       transform="translate(813 68)"
-      class="letter l11"
-    />
+      opacity="0"
+    >
+
+      <animate
+        attributeName="opacity"
+        from="0"
+        to="1"
+        dur="0.01s"
+        begin="1.06s"
+        fill="freeze"
+      />
+
+    </use>
 
   </g>
 
 
-  <!-- =========================================
-       PIXEL CURSOR
-  ========================================== -->
+
+  <!-- ==================================================
+       FORCED BLINKING PIXEL CURSOR
+  ================================================== -->
 
   <rect
     x="875"
     y="128"
     width="9"
     height="9"
-    class="cursor"
-  />
+    class="px"
+  >
+
+    <animate
+      attributeName="opacity"
+      values="
+        1;
+        1;
+        0;
+        0
+      "
+      keyTimes="
+        0;
+        0.49;
+        0.50;
+        1
+      "
+      dur="1s"
+      begin="1.10s"
+      repeatCount="indefinite"
+    />
+
+  </rect>
 
 
-  <!-- =========================================
+
+  <!-- ==================================================
        ROLE
-  ========================================== -->
+  ================================================== -->
 
   <text
     x="500"
@@ -626,9 +885,10 @@
   </text>
 
 
-  <!-- =========================================
+
+  <!-- ==================================================
        DATA RAIL
-  ========================================== -->
+  ================================================== -->
 
   <line
     x1="116"
@@ -640,7 +900,10 @@
   />
 
 
-  <!-- static pixel rail -->
+
+  <!-- ==================================================
+       STATIC DATA PIXELS
+  ================================================== -->
 
   <g class="data">
 
@@ -648,14 +911,17 @@
     <use href="#bit" x="170" y="176"/>
     <use href="#bit" x="218" y="176"/>
     <use href="#bit" x="266" y="176"/>
+
     <use href="#bit" x="314" y="176"/>
     <use href="#bit" x="362" y="176"/>
     <use href="#bit" x="410" y="176"/>
     <use href="#bit" x="458" y="176"/>
+
     <use href="#bit" x="506" y="176"/>
     <use href="#bit" x="554" y="176"/>
     <use href="#bit" x="602" y="176"/>
     <use href="#bit" x="650" y="176"/>
+
     <use href="#bit" x="698" y="176"/>
     <use href="#bit" x="746" y="176"/>
     <use href="#bit" x="794" y="176"/>
@@ -664,30 +930,115 @@
   </g>
 
 
-  <!-- animated signal -->
+
+  <!-- ==================================================
+       FORCED MOVING SCANNER
+  ================================================== -->
 
   <rect
     x="122"
     y="176"
     width="8"
     height="8"
-    class="scanner"
-  />
+    class="px"
+  >
+
+    <!--
+      DISCRETE movement preserves
+      the retro pixel-step look.
+    -->
+
+    <animate
+      attributeName="x"
+
+      values="
+        122;
+        170;
+        218;
+        266;
+        314;
+        362;
+        410;
+        458;
+        506;
+        554;
+        602;
+        650;
+        698;
+        746;
+        794;
+        842;
+        794;
+        746;
+        698;
+        650;
+        602;
+        554;
+        506;
+        458;
+        410;
+        362;
+        314;
+        266;
+        218;
+        170;
+        122
+      "
+
+      dur="3.2s"
+      calcMode="discrete"
+      repeatCount="indefinite"
+    />
 
 
-  <!-- =========================================
+    <!-- subtle packet flicker -->
+
+    <animate
+      attributeName="opacity"
+      values="
+        1;
+        0.55;
+        1
+      "
+      dur="0.35s"
+      repeatCount="indefinite"
+    />
+
+  </rect>
+
+
+
+  <!-- ==================================================
        BOTTOM META
-  ========================================== -->
+  ================================================== -->
 
   <g transform="translate(92 201)">
+
+
+    <!-- ONLINE STATUS PIXEL -->
 
     <rect
       x="0"
       y="-7"
       width="6"
       height="6"
-      class="muted online"
-    />
+      class="muted"
+    >
+
+      <animate
+        attributeName="opacity"
+        values="
+          0.25;
+          1;
+          0.25
+        "
+        dur="1.8s"
+        repeatCount="indefinite"
+      />
+
+    </rect>
+
+
 
     <text
       x="14"
@@ -700,6 +1051,9 @@
   </g>
 
 
+
+  <!-- center footer -->
+
   <text
     x="500"
     y="201"
@@ -710,6 +1064,9 @@
   </text>
 
 
+
+  <!-- right footer -->
+
   <text
     x="908"
     y="201"
@@ -718,5 +1075,6 @@
   >
     README://ROOT
   </text>
+
 
 </svg>
