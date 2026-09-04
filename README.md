@@ -273,8 +273,6 @@
 
 <h2><code>API LEAKS</code></h2>
 
-<p align="center"><b>akash@github:~$ ./profile --modules</b></p>
-
 <table align="center" width="95%">
 <tr>
 <td width="33%" align="center" valign="top">
