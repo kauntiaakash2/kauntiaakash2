@@ -30,13 +30,13 @@
 
 ## SYSTEM STATUS
 
-### `LOAD --TECH-MATRIX`
+## `LOAD --TECH-MATRIX`
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,nodejs,express,fastapi,flask,python,tensorflow,pytorch,mongodb,mysql,docker,aws,git,github,postman,vscode,vercel,cpp,c,java" />
 </div>
 
-### `TELEMETRY --LIVE`
+## `TELEMETRY --LIVE`
 
 <div align="center">
 
@@ -114,33 +114,99 @@
 
 </div>
 
-### `ACHIVEMENTS`
+## `ACHIVEMENTS`
 
 <div align="center">
   <img src="https://nirzak-trophies.vercel.app/?username=kauntiaakash2&theme=darkhub&no-bg=true&no-frame=false&margin-w=8" />
 </div>
 
-### `PANEL --INTERACTIVE`
 
-<details>
-  <summary><b>🧠 Current Build Mode</b></summary>
-  <br/>
-  Building full-stack products with AI integrations, fast APIs, and production-friendly architecture.
-</details>
+<h2><code>API LEAKS</code></h2>
 
-<details>
-  <summary><b>🤝 Open to Collaborate</b></summary>
-  <br/>
-  Open to internships, hackathons, and collaborative projects in AI/ML + full-stack development.
-</details>
+<p align="center"><b>akash@github:~$ ./profile --modules</b></p>
 
-<details>
-  <summary><b>📸 Side Quest</b></summary>
-  <br/>
-  I enjoy photography and creative visual design.
-</details>
+<table align="center" width="95%">
+<tr>
+<td width="33%" align="center" valign="top">
+<img src="https://octodex.github.com/images/front-end-conftocat.png" width="100" alt="Build">
+<br><br>
+<b>BUILD SYSTEMS</b>
+<br>
+<sub>AI × FULL-STACK</sub>
+</td>
 
-### `FIND ME ONLINE`
+<td width="33%" align="center" valign="top">
+<img src="https://octodex.github.com/images/supportcat.png" width="100" alt="Collaborate">
+<br><br>
+<b>BUILD TOGETHER</b>
+<br>
+<sub>COLLABORATION CHANNEL</sub>
+</td>
+
+<td width="33%" align="center" valign="top">
+<img src="https://octodex.github.com/images/filmtocat.png" width="100" alt="Photography">
+<br><br>
+<b>VISUAL SIGNALS</b>
+<br>
+<sub>BEYOND THE CODE</sub>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<code>AI/ML</code> • <code>APIs</code> • <code>Systems</code>
+</td>
+
+<td align="center">
+<code>Internships</code> • <code>Hackathons</code> • <code>Open Source</code>
+</td>
+
+<td align="center">
+<code>Photography</code> • <code>Visuals</code> • <code>Design</code>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="top">
+<br>
+Turning ideas into polished,<br>
+production-ready products.
+<br><br>
+</td>
+
+<td align="center" valign="top">
+<br>
+Building with ambitious teams<br>
+and shipping real-world products.
+<br><br>
+</td>
+
+<td align="center" valign="top">
+<br>
+Capturing stories through<br>
+frames and visual design.
+<br><br>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="https://github.com/kauntiaakash2?tab=repositories"><b>Explore Repositories →</b></a>
+</td>
+
+<td align="center">
+<a href="mailto:akashkauntia2006@gmail.com"><b>Let's Build →</b></a>
+</td>
+
+<td align="center">
+<a href="https://www.instagram.com/aa.visuals.in/"><b>@aa.visuals.in →</b></a>
+</td>
+</tr>
+</table>
+
+
+
+## `FIND ME ONLINE`
 
 <p align="center">
 <a href="https://www.linkedin.com/in/kauntiakash2/" title="LinkedIn"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/White/LinkedIN_white.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Black/LinkedIN_black.svg"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Black/LinkedIN_black.svg" alt="LinkedIn" width="34" height="34"></picture></a>&nbsp;&nbsp;&nbsp;
