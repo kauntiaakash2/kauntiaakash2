@@ -28,7 +28,7 @@
 
 ---
 
-## SYSTEM STATUS 💻
+## SYSTEM STATUS
 
 ### `LOAD --TECH-MATRIX`
 
@@ -39,15 +39,82 @@
 ### `TELEMETRY --LIVE`
 
 <div align="center">
-  <img height="170" src="https://awesome-github-stats.azurewebsites.net/user-stats/kauntiaakash2?theme=tokyonight" />
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=kauntiaakash2&theme=tokyonight" />
-  <br/>
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kauntiaakash2&theme=tokyonight" />
-  <br/>
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kauntiaakash2&theme=tokyonight" />
+
+  <!-- GitHub Stats -->
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://awesome-github-stats.azurewebsites.net/user-stats/kauntiaakash2?background=0D1117&border=30363D&text=F0F6FC&title=F0F6FC&icon=F0F6FC&ring=F0F6FC"
+    >
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://awesome-github-stats.azurewebsites.net/user-stats/kauntiaakash2?background=FFFFFF&border=D0D7DE&text=1F2328&title=1F2328&icon=1F2328&ring=1F2328"
+    >
+    <img
+      height="170"
+      alt="GitHub Stats"
+      src="https://awesome-github-stats.azurewebsites.net/user-stats/kauntiaakash2?background=FFFFFF&border=D0D7DE&text=1F2328&title=1F2328&icon=1F2328&ring=1F2328"
+    >
+  </picture>
+
+  <!-- GitHub Streak -->
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://github-readme-streak-stats.herokuapp.com/?user=kauntiaakash2&background=0D1117&border=30363D&stroke=30363D&ring=F0F6FC&fire=F0F6FC&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=F0F6FC&sideLabels=F0F6FC&dates=8B949E"
+    >
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://github-readme-streak-stats.herokuapp.com/?user=kauntiaakash2&background=FFFFFF&border=D0D7DE&stroke=D0D7DE&ring=1F2328&fire=1F2328&currStreakNum=1F2328&sideNums=1F2328&currStreakLabel=1F2328&sideLabels=1F2328&dates=656D76"
+    >
+    <img
+      height="170"
+      alt="GitHub Streak"
+      src="https://github-readme-streak-stats.herokuapp.com/?user=kauntiaakash2&background=FFFFFF&border=D0D7DE&stroke=D0D7DE&ring=1F2328&fire=1F2328&currStreakNum=1F2328&sideNums=1F2328&currStreakLabel=1F2328&sideLabels=1F2328&dates=656D76"
+    >
+  </picture>
+
+  <br>
+
+  <!-- Profile Details -->
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kauntiaakash2&theme=github_dark&bg_color=0D1117&border_color=30363D&title_color=F0F6FC&text_color=F0F6FC&icon_color=F0F6FC&chart_color=F0F6FC"
+    >
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kauntiaakash2&theme=github&bg_color=FFFFFF&border_color=D0D7DE&title_color=1F2328&text_color=1F2328&icon_color=1F2328&chart_color=1F2328"
+    >
+    <img
+      height="180"
+      alt="Profile Details"
+      src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kauntiaakash2&theme=github&bg_color=FFFFFF&border_color=D0D7DE&title_color=1F2328&text_color=1F2328&icon_color=1F2328&chart_color=1F2328"
+    >
+  </picture>
+
+  <br>
+
+  <!-- Languages -->
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kauntiaakash2&theme=github_dark&bg_color=0D1117&border_color=30363D&title_color=F0F6FC&text_color=F0F6FC&icon_color=F0F6FC&chart_color=F0F6FC"
+    >
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kauntiaakash2&theme=github&bg_color=FFFFFF&border_color=D0D7DE&title_color=1F2328&text_color=1F2328&icon_color=1F2328&chart_color=1F2328"
+    >
+    <img
+      height="170"
+      alt="Languages by Repository"
+      src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kauntiaakash2&theme=github&bg_color=FFFFFF&border_color=D0D7DE&title_color=1F2328&text_color=1F2328&icon_color=1F2328&chart_color=1F2328"
+    >
+  </picture>
+
 </div>
 
-### 🏆 `ACHIVEMENTS`
+### `ACHIVEMENTS`
 
 <div align="center">
   <img src="https://nirzak-trophies.vercel.app/?username=kauntiaakash2&theme=darkhub&no-bg=true&no-frame=false&margin-w=8" />
