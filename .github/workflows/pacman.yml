@@ -2,11 +2,8 @@ name: Generate Pac-Man Contribution Graph
 
 on:
   schedule:
-    # Run a little after the Snake workflow
     - cron: "10 0 * * *"
-
   workflow_dispatch:
-
   push:
     branches:
       - main
@@ -25,7 +22,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Generate Pac-Man Contribution Graph
         uses: abozanona/pacman-contribution-graph@main
