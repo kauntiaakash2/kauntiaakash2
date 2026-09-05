@@ -6,15 +6,15 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=24&duration=2400&pause=800&color=FFFFFF&center=true&vCenter=true&width=980&lines=%24+boot+akash.profile;Loading+Neural+Stack...;Full+Stack+Developer+%7C+AI%2FML+Builder;Competitive+Programmer+%7C+System+Thinker;Welcome+to+my+GitHub+Terminal"
+    srcset="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=24&duration=2400&pause=800&color=FFFFFF&center=true&vCenter=true&width=980&lines=%24+boot+akash.profile;Loading+Neural+Stack...;Full+Stack+Developer+%7C+AI+Engineer;Competitive+Programmer+%7C+System+Thinker;Welcome+to+my+Mini+World+🌏"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=24&duration=2400&pause=800&color=111111&center=true&vCenter=true&width=980&lines=%24+boot+akash.profile;Loading+Neural+Stack...;Full+Stack+Developer+%7C+AI%2FML+Builder;Competitive+Programmer+%7C+System+Thinker;Welcome+to+my+GitHub+Terminal"
+    srcset="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=24&duration=2400&pause=800&color=111111&center=true&vCenter=true&width=980&lines=%24+boot+akash.profile;Loading+Neural+Stack...;Full+Stack+Developer+%7C+AI+Engineer;Competitive+Programmer+%7C+System+Thinker;Welcome+to+my+Mini+World+🌏"
   />
   <img
     alt="Typing SVG"
-    src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=24&duration=2400&pause=800&color=111111&center=true&vCenter=true&width=980&lines=%24+boot+akash.profile;Loading+Neural+Stack...;Full+Stack+Developer+%7C+AI%2FML+Builder;Competitive+Programmer+%7C+System+Thinker;Welcome+to+my+GitHub+Terminal"
+    src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=24&duration=2400&pause=800&color=111111&center=true&vCenter=true&width=980&lines=%24+boot+akash.profile;Loading+Neural+Stack...;Full+Stack+Developer+%7C+AI+Engineer;Competitive+Programmer+%7C+System+Thinker;Welcome+to+my+Mini+World+🌏"
   />
 </picture>
 
