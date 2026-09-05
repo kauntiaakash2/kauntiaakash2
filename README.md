@@ -18,11 +18,29 @@
   />
 </picture>
 
-<p>
-<a href="https://github.com/kauntiaakash2?tab=repositories"><img src="https://img.shields.io/badge/OPEN_REPOSITORIES-ffffff?style=for-the-badge&logo=github&logoColor=000000"></a>
-<a href="https://github.com/kauntiaakash2/FinVerifyAI"><img src="https://img.shields.io/badge/STAR_PROJECT-ffffff?style=for-the-badge&logo=starship&logoColor=000000"></a>
-<a href="mailto:akashkauntia2006@gmail.com"><img src="https://img.shields.io/badge/CONTACT_ME-ffffff?style=for-the-badge&logo=gmail&logoColor=000000"></a>
-</p>
+<table align="center">
+<tr>
+<td align="center">
+<a href="https://github.com/search?q=user%3Akauntiaakash2+is%3Aopen+is%3Aissue&type=issues"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/github/issues-search?query=user%3Akauntiaakash2%20is%3Aopen%20is%3Aissue&amp;label=OPEN%20ISSUES&amp;style=for-the-badge&amp;logo=github&amp;logoColor=000000&amp;labelColor=ffffff&amp;color=d9d9d9"><source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/issues-search?query=user%3Akauntiaakash2%20is%3Aopen%20is%3Aissue&amp;label=OPEN%20ISSUES&amp;style=for-the-badge&amp;logo=github&amp;logoColor=ffffff&amp;labelColor=000000&amp;color=2b2b2b"><img alt="Open Issues" src="https://img.shields.io/github/issues-search?query=user%3Akauntiaakash2%20is%3Aopen%20is%3Aissue&amp;label=OPEN%20ISSUES&amp;style=for-the-badge&amp;logo=github&amp;logoColor=000000&amp;labelColor=ffffff&amp;color=d9d9d9"></picture></a>
+</td>
+
+<td align="center">
+<a href="https://github.com/search?q=user%3Akauntiaakash2+is%3Aopen+is%3Apr&type=pullrequests"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/github/issues-search?query=user%3Akauntiaakash2%20is%3Aopen%20is%3Apr&amp;label=OPEN%20PRS&amp;style=for-the-badge&amp;logo=git&amp;logoColor=000000&amp;labelColor=ffffff&amp;color=d9d9d9"><source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/issues-search?query=user%3Akauntiaakash2%20is%3Aopen%20is%3Apr&amp;label=OPEN%20PRS&amp;style=for-the-badge&amp;logo=git&amp;logoColor=ffffff&amp;labelColor=000000&amp;color=2b2b2b"><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-search?query=user%3Akauntiaakash2%20is%3Aopen%20is%3Apr&amp;label=OPEN%20PRS&amp;style=for-the-badge&amp;logo=git&amp;logoColor=000000&amp;labelColor=ffffff&amp;color=d9d9d9"></picture></a>
+</td>
+
+<td align="center">
+<a href="https://github.com/kauntiaakash2/CodeFlowViz-2.0"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/github/stars/kauntiaakash2/CodeFlowViz-2.0?style=for-the-badge&amp;label=TOP%20STAR&amp;logo=github&amp;logoColor=000000&amp;labelColor=ffffff&amp;color=d9d9d9"><source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/stars/kauntiaakash2/CodeFlowViz-2.0?style=for-the-badge&amp;label=TOP%20STAR&amp;logo=github&amp;logoColor=ffffff&amp;labelColor=000000&amp;color=2b2b2b"><img alt="Top Starred Project" src="https://img.shields.io/github/stars/kauntiaakash2/CodeFlowViz-2.0?style=for-the-badge&amp;label=TOP%20STAR&amp;logo=github&amp;logoColor=000000&amp;labelColor=ffffff&amp;color=d9d9d9"></picture></a>
+</td>
+
+<td align="center">
+<a href="https://github.com/kauntiaakash2?tab=followers"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/github/followers/kauntiaakash2?style=for-the-badge&amp;label=FOLLOWERS&amp;logo=github&amp;logoColor=000000&amp;labelColor=ffffff&amp;color=d9d9d9"><source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/followers/kauntiaakash2?style=for-the-badge&amp;label=FOLLOWERS&amp;logo=github&amp;logoColor=ffffff&amp;labelColor=000000&amp;color=2b2b2b"><img alt="Followers" src="https://img.shields.io/github/followers/kauntiaakash2?style=for-the-badge&amp;label=FOLLOWERS&amp;logo=github&amp;logoColor=000000&amp;labelColor=ffffff&amp;color=d9d9d9"></picture></a>
+</td>
+
+<td align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://github-view-counter.vercel.app/api?username=kauntiaakash2&amp;base=2122&amp;label=VIEWS&amp;style=square&amp;layout=split&amp;labelBgColor=ffffff&amp;bgColor=d9d9d9&amp;labelColor=000000&amp;color=000000&amp;iconColor=000000"><source media="(prefers-color-scheme: light)" srcset="https://github-view-counter.vercel.app/api?username=kauntiaakash2&amp;base=2122&amp;label=VIEWS&amp;style=square&amp;layout=split&amp;labelBgColor=000000&amp;bgColor=2b2b2b&amp;labelColor=ffffff&amp;color=ffffff&amp;iconColor=ffffff"><img height="28" alt="Profile Views" src="https://github-view-counter.vercel.app/api?username=kauntiaakash2&amp;base=2122&amp;label=VIEWS&amp;style=square&amp;layout=split&amp;labelBgColor=ffffff&amp;bgColor=d9d9d9&amp;labelColor=000000&amp;color=000000&amp;iconColor=000000"></picture>
+</td>
+</tr>
+</table>
 
 </div>
 
