@@ -407,11 +407,35 @@ frames and visual design.
   >
 </picture>
 
-<!-- <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/output/github-snake.svg" />
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/output/github-snake.svg" />
-</picture> -->
+<details name="arcade">
+<summary><code>DO NOT PRESS</code></summary>
+<p align="center">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/snake-output/github-snake-dark.svg">
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/snake-output/github-snake.svg">
+<img alt="GitHub Snake" src="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/snake-output/github-snake.svg" width="100%">
+</picture>
+</p>
+</details>
+
+<details name="arcade">
+<summary><code>DO NOT LOOK INSIDE</code></summary>
+<p align="center">
+<img src="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/space-shooter-output/space-shooter.gif" alt="Space Shooter Contribution Graph" width="100%">
+</p>
+</details>
+
+<details name="arcade">
+<summary><code>CLICK AT YOUR OWN RISK</code></summary>
+<p align="center">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/breakout-output/dark.svg">
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/breakout-output/light.svg">
+<img alt="Breakout Contribution Graph" src="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/breakout-output/light.svg" width="100%">
+</picture>
+</p>
+</details>
+
 ---
 
 <h3 align="center">
