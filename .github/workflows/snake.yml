@@ -1,4 +1,4 @@
-name: Generate Contribution Animations
+name: Generate Snake Contribution Graph
 
 on:
   schedule:
@@ -13,58 +13,46 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: snake-contribution-graph
+  cancel-in-progress: true
+
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # -----------------------------
-      # Generate Snake
-      # -----------------------------
       - name: Generate GitHub Snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
-      # IMPORTANT:
-      # Snake Docker action may leave dist owned by root
-      - name: Fix dist permissions
+          outputs: |
+            dist/github-snake.svg?palette=github-light
+            dist/github-snake-dark.svg?palette=github-dark
+
+      # snk uses a Docker action, so generated files can
+      # sometimes be owned by root.
+      - name: Fix generated file permissions
         run: |
           sudo chown -R "$(id -u):$(id -g)" dist
           chmod -R u+rwX dist
 
-      # -----------------------------
-      # Generate Pac-Man
-      # -----------------------------
-      - name: Generate Pac-Man Contribution Graph
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          games: "pacman"
-
-      # -----------------------------
-      # Show generated files
-      # -----------------------------
       - name: Verify generated files
         run: |
-          echo "Generated files:"
+          echo "Snake files:"
           ls -lah dist/
 
-      # -----------------------------
-      # Publish everything
-      # -----------------------------
-      - name: Deploy to output branch
+      - name: Deploy Snake to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          publish_branch: output
-          commit_message: "Update contribution animations [skip ci]"
+          publish_branch: snake-output
+          force_orphan: true
+          full_commit_message: "chore: update snake contribution graph"
