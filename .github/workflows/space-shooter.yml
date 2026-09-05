@@ -1,0 +1,64 @@
+name: Generate Space Shooter Contribution Graph
+
+on:
+  schedule:
+    - cron: "20 0 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: space-shooter-contribution-graph
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install Space Shooter
+        run: |
+          python -m pip install --upgrade pip
+          pip install gh-space-shooter
+
+      - name: Create output directory
+        run: mkdir -p dist
+
+      - name: Generate Space Shooter
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh-space-shooter "${{ github.repository_owner }}" \
+            --output dist/space-shooter.gif \
+            --strategy random \
+            --fps 30
+
+      - name: Verify generated file
+        run: |
+          echo "Generated Space Shooter:"
+          ls -lah dist/
+          test -f dist/space-shooter.gif
+
+      - name: Deploy Space Shooter
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: space-shooter-output
+          force_orphan: true
+          full_commit_message: "chore: update space shooter contribution graph"
