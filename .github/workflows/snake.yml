@@ -3,9 +3,7 @@ name: Generate Snake Contribution Graph
 on:
   schedule:
     - cron: "0 0 * * *"
-
   workflow_dispatch:
-
   push:
     branches:
       - main
@@ -24,20 +22,17 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Generate GitHub Snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-
           outputs: |
             dist/github-snake.svg?palette=github-light
             dist/github-snake-dark.svg?palette=github-dark
 
-      # snk uses a Docker action, so generated files can
-      # sometimes be owned by root.
       - name: Fix generated file permissions
         run: |
           sudo chown -R "$(id -u):$(id -g)" dist
