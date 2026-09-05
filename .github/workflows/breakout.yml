@@ -1,0 +1,51 @@
+name: Generate Breakout Contribution Graph
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: breakout-contribution-graph
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Generate Breakout Contribution Graph
+        uses: cyprieng/github-breakout@v1
+        with:
+          github_username: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          output_path: ./dist
+
+      - name: Verify generated files
+        run: |
+          echo "Generated Breakout files:"
+          ls -lah dist/
+
+          test -f dist/light.svg
+          test -f dist/dark.svg
+
+      - name: Deploy Breakout
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: breakout-output
+          force_orphan: true
+          full_commit_message: "chore: update breakout contribution graph"
