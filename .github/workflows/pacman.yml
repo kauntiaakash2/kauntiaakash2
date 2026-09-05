@@ -1,0 +1,54 @@
+name: Generate Pac-Man Contribution Graph
+
+on:
+  schedule:
+    # Run a little after the Snake workflow
+    - cron: "10 0 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pacman-contribution-graph
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Pac-Man Contribution Graph
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          games: "pacman"
+          player_style: "opportunistic"
+          hide_month_labels: "false"
+
+      - name: Verify generated files
+        run: |
+          echo "Pac-Man files:"
+          ls -lah dist/
+
+          test -f dist/pacman-contribution-graph.svg
+          test -f dist/pacman-contribution-graph-dark.svg
+
+      - name: Deploy Pac-Man to output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: pacman-output
+          force_orphan: true
+          full_commit_message: "chore: update pacman contribution graph"
