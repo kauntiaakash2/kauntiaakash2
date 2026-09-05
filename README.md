@@ -361,7 +361,7 @@ frames and visual design.
 </td>
 
 <td align="center">
-<a href="mailto:akashkauntia2006@gmail.com"><b>Let's Build →</b></a>
+<a href="https://chat.whatsapp.com/F3RyNoeppeh4h6sL3qG1gP"><b>Let's Build →</b></a>
 </td>
 
 <td align="center">
