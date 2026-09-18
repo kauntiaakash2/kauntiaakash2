@@ -1,7 +1,7 @@
 <div align="center">
 
 <!---img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&text=AKASH%20AGARWAL&fontSize=56&fontAlignY=50&fontColor=00F5FF&animation=twinkling&color=0:000000,40:001a1a,70:002f2f,100:000000" /--->
-<img src="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/main/banner.svg" width="100%" />
+<!-- <img src="https://raw.githubusercontent.com/kauntiaakash2/kauntiaakash2/main/banner.svg" width="100%" /> -->
 
 <picture>
   <source
@@ -17,8 +17,12 @@
     src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=24&duration=2400&pause=800&color=111111&center=true&vCenter=true&width=980&lines=%24+boot+akash.profile;Loading+Neural+Stack...;Full+Stack+Developer+%7C+AI+Engineer;Competitive+Programmer+%7C+System+Thinker;Welcome+to+my+Mini+World+🌏"
   />
 </picture>
-
-<table align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
+  <img alt="kauntiaakash2's GitHub profile" src="dark_mode.svg" />
+</picture>
+<!-- <table align="center">
 <tr>
 <td align="center">
 <a href="https://github.com/search?q=user%3Akauntiaakash2+is%3Aopen+is%3Aissue&type=issues"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/github/issues-search?query=user%3Akauntiaakash2%20is%3Aopen%20is%3Aissue&amp;label=OPEN%20ISSUES&amp;style=for-the-badge&amp;logo=github&amp;logoColor=000000&amp;labelColor=ffffff&amp;color=d9d9d9"><source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/issues-search?query=user%3Akauntiaakash2%20is%3Aopen%20is%3Aissue&amp;label=OPEN%20ISSUES&amp;style=for-the-badge&amp;logo=github&amp;logoColor=ffffff&amp;labelColor=000000&amp;color=2b2b2b"><img alt="Open Issues" src="https://img.shields.io/github/issues-search?query=user%3Akauntiaakash2%20is%3Aopen%20is%3Aissue&amp;label=OPEN%20ISSUES&amp;style=for-the-badge&amp;logo=github&amp;logoColor=000000&amp;labelColor=ffffff&amp;color=d9d9d9"></picture></a>
@@ -40,7 +44,7 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-view-counter.vercel.app/api?username=kauntiaakash2&amp;base=2122&amp;label=VIEWS&amp;style=square&amp;layout=split&amp;labelBgColor=ffffff&amp;bgColor=d9d9d9&amp;labelColor=000000&amp;color=000000&amp;iconColor=000000"><source media="(prefers-color-scheme: light)" srcset="https://github-view-counter.vercel.app/api?username=kauntiaakash2&amp;base=2122&amp;label=VIEWS&amp;style=square&amp;layout=split&amp;labelBgColor=000000&amp;bgColor=2b2b2b&amp;labelColor=ffffff&amp;color=ffffff&amp;iconColor=ffffff"><img height="28" alt="Profile Views" src="https://github-view-counter.vercel.app/api?username=kauntiaakash2&amp;base=2122&amp;label=VIEWS&amp;style=square&amp;layout=split&amp;labelBgColor=ffffff&amp;bgColor=d9d9d9&amp;labelColor=000000&amp;color=000000&amp;iconColor=000000"></picture>
 </td>
 </tr>
-</table>
+</table> -->
 
 </div>
 
